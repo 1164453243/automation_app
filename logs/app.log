@@ -532,3 +532,823 @@ logging.error('This is an error message')
 2024-08-25 11:18:11 - INFO - 自动加载了 2 个商品链接
 2024-08-25 11:18:12 - INFO - 注册线程启动...
 2024-08-25 11:18:12 - INFO - 找到 5 个未注册账号
+2024-08-25 11:55:46 - INFO - 自动加载了 5 个账号
+2024-08-25 11:55:46 - INFO - 自动加载了 2 个代理
+2024-08-25 11:55:46 - INFO - 自动加载了 2 个商品链接
+2024-08-25 11:55:49 - INFO - 注册线程启动...
+2024-08-25 11:55:49 - INFO - 找到 5 个未注册账号
+2024-08-25 11:56:57 - INFO - 自动加载了 5 个账号
+2024-08-25 11:56:57 - INFO - 自动加载了 2 个代理
+2024-08-25 11:56:57 - INFO - 自动加载了 2 个商品链接
+2024-08-25 11:57:09 - INFO - 自动加载了 5 个账号
+2024-08-25 11:57:09 - INFO - 自动加载了 2 个代理
+2024-08-25 11:57:09 - INFO - 自动加载了 2 个商品链接
+2024-08-25 11:57:12 - INFO - 注册线程启动...
+2024-08-25 11:57:12 - INFO - 找到 5 个未注册账号
+2024-08-25 11:57:42 - INFO - 自动加载了 5 个账号
+2024-08-25 11:57:42 - INFO - 自动加载了 2 个代理
+2024-08-25 11:57:42 - INFO - 自动加载了 2 个商品链接
+2024-08-25 11:57:44 - INFO - 注册线程启动...
+2024-08-25 11:57:44 - INFO - 找到 5 个未注册账号
+2024-08-25 11:58:15 - INFO - 自动加载了 5 个账号
+2024-08-25 11:58:15 - INFO - 自动加载了 2 个代理
+2024-08-25 11:58:15 - INFO - 自动加载了 2 个商品链接
+2024-08-25 11:58:17 - INFO - 注册线程启动...
+2024-08-25 11:58:17 - INFO - 找到 5 个未注册账号
+2024-08-25 12:05:19 - INFO - 自动加载了 5 个账号
+2024-08-25 12:05:19 - INFO - 自动加载了 2 个代理
+2024-08-25 12:05:19 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:05:21 - INFO - 注册线程启动...
+2024-08-25 12:05:21 - INFO - 找到 5 个未注册账号
+2024-08-25 12:07:57 - INFO - 自动加载了 5 个账号
+2024-08-25 12:07:57 - INFO - 自动加载了 2 个代理
+2024-08-25 12:07:57 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:07:58 - INFO - 注册线程启动...
+2024-08-25 12:07:58 - INFO - 找到 5 个未注册账号
+2024-08-25 12:10:25 - INFO - 自动加载了 5 个账号
+2024-08-25 12:10:25 - INFO - 自动加载了 2 个代理
+2024-08-25 12:10:25 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:10:26 - INFO - 注册线程启动...
+2024-08-25 12:10:26 - INFO - 找到 5 个未注册账号
+2024-08-25 12:15:48 - INFO - 自动加载了 5 个账号
+2024-08-25 12:15:48 - INFO - 自动加载了 2 个代理
+2024-08-25 12:15:48 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:15:50 - INFO - 注册线程启动...
+2024-08-25 12:15:50 - INFO - 找到 5 个未注册账号
+2024-08-25 12:16:11 - INFO - user1@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:16:11 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:16:54 - INFO - 自动加载了 5 个账号
+2024-08-25 12:16:54 - INFO - 自动加载了 2 个代理
+2024-08-25 12:16:54 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:16:56 - INFO - 注册线程启动...
+2024-08-25 12:16:56 - INFO - 找到 5 个未注册账号
+2024-08-25 12:17:12 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: 
+
+2024-08-25 12:17:27 - INFO - user1@example.com - 验证码输入失败。Error: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-08-25 12:17:27 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:17:29 - INFO - 自动加载了 5 个账号
+2024-08-25 12:17:29 - INFO - 自动加载了 2 个代理
+2024-08-25 12:17:29 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:17:32 - INFO - 注册线程启动...
+2024-08-25 12:17:32 - INFO - 找到 5 个未注册账号
+2024-08-25 12:17:54 - INFO - user1@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:17:54 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:17:55 - INFO - 账号配置文件已保存
+2024-08-25 12:17:55 - INFO - 代理配置文件已保存
+2024-08-25 12:17:55 - INFO - 商品链接配置文件已保存
+2024-08-25 12:17:55 - INFO - 修改了表格中的一个单元格并已保存
+2024-08-25 12:18:14 - INFO - 自动加载了 5 个账号
+2024-08-25 12:18:14 - INFO - 自动加载了 2 个代理
+2024-08-25 12:18:14 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:18:17 - INFO - 注册线程启动...
+2024-08-25 12:18:17 - INFO - 找到 4 个未注册账号
+2024-08-25 12:18:27 - INFO - user2@example.com - 验证码输入失败。Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.164)
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x0068E483]
+	(No symbol) [0x00719FCF]
+	(No symbol) [0x0072C336]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:18:27 - INFO - 账号 user2@example.com 注册成功
+2024-08-25 12:18:33 - INFO - 自动加载了 5 个账号
+2024-08-25 12:18:33 - INFO - 自动加载了 2 个代理
+2024-08-25 12:18:33 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:18:38 - INFO - 账号配置文件已保存
+2024-08-25 12:18:38 - INFO - 代理配置文件已保存
+2024-08-25 12:18:38 - INFO - 商品链接配置文件已保存
+2024-08-25 12:18:38 - INFO - 修改了表格中的一个单元格并已保存
+2024-08-25 12:18:40 - INFO - 注册线程启动...
+2024-08-25 12:18:40 - INFO - 找到 5 个未注册账号
+2024-08-25 12:19:04 - INFO - user1@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:19:04 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:19:12 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.164)
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x0069CE2C]
+	(No symbol) [0x0069CDB6]
+	(No symbol) [0x0069B989]
+	(No symbol) [0x0069C35D]
+	(No symbol) [0x006B4D5F]
+	(No symbol) [0x006B5522]
+	(No symbol) [0x006B8858]
+	(No symbol) [0x006B88D0]
+	(No symbol) [0x006F2847]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:32:14 - INFO - 自动加载了 5 个账号
+2024-08-25 12:32:14 - INFO - 自动加载了 2 个代理
+2024-08-25 12:32:14 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:32:21 - INFO - 注册线程启动...
+2024-08-25 12:32:21 - INFO - 找到 5 个未注册账号
+2024-08-25 12:32:35 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:34:19 - INFO - 自动加载了 5 个账号
+2024-08-25 12:34:19 - INFO - 自动加载了 2 个代理
+2024-08-25 12:34:19 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:34:24 - INFO - 注册线程启动...
+2024-08-25 12:34:24 - INFO - 找到 5 个未注册账号
+2024-08-25 12:34:42 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:34:50 - INFO - user1@example.com - 验证码输入失败。Error: 'NoneType' object has no attribute 'is_displayed'
+2024-08-25 12:34:50 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:37:27 - INFO - 自动加载了 5 个账号
+2024-08-25 12:37:27 - INFO - 自动加载了 2 个代理
+2024-08-25 12:37:27 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:37:29 - INFO - 注册线程启动...
+2024-08-25 12:37:29 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:32 - INFO - 注册线程启动...
+2024-08-25 12:37:32 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:34 - INFO - 注册线程启动...
+2024-08-25 12:37:34 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:35 - INFO - 注册线程启动...
+2024-08-25 12:37:35 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:35 - INFO - 注册线程启动...
+2024-08-25 12:37:35 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:35 - INFO - 注册线程启动...
+2024-08-25 12:37:35 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:35 - INFO - 注册线程启动...
+2024-08-25 12:37:35 - INFO - 找到 5 个未注册账号
+2024-08-25 12:37:44 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:37:54 - INFO - 正在停止所有线程...
+2024-08-25 12:38:00 - INFO - user1@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:38:00 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:38:10 - INFO - 注册线程启动...
+2024-08-25 12:38:10 - INFO - 找到 4 个未注册账号
+2024-08-25 12:38:17 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:38:34 - INFO - user2@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:38:34 - INFO - 账号 user2@example.com 注册成功
+2024-08-25 12:38:50 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:39:06 - INFO - user1@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:39:06 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:39:23 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:39:40 - INFO - user2@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:39:40 - INFO - 账号 user2@example.com 注册成功
+2024-08-25 12:39:55 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:40:11 - INFO - user2@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:40:11 - INFO - 账号 user2@example.com 注册成功
+2024-08-25 12:40:28 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:40:44 - INFO - user5@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:40:44 - INFO - 账号 user5@example.com 注册成功
+2024-08-25 12:40:59 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:41:16 - INFO - user4@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:41:16 - INFO - 账号 user4@example.com 注册成功
+2024-08-25 12:41:32 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:41:48 - INFO - user2@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:41:48 - INFO - 账号 user2@example.com 注册成功
+2024-08-25 12:42:04 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:42:25 - INFO - 自动加载了 5 个账号
+2024-08-25 12:42:25 - INFO - 自动加载了 2 个代理
+2024-08-25 12:42:25 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:42:57 - INFO - 注册线程启动...
+2024-08-25 12:42:57 - INFO - 找到 5 个未注册账号
+2024-08-25 12:43:00 - INFO - 正在停止所有线程...
+2024-08-25 12:46:32 - INFO - 自动加载了 5 个账号
+2024-08-25 12:46:32 - INFO - 自动加载了 2 个代理
+2024-08-25 12:46:32 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:46:37 - INFO - 注册线程启动...
+2024-08-25 12:46:37 - INFO - 找到 5 个未注册账号
+2024-08-25 12:46:43 - INFO - 正在停止所有线程...
+2024-08-25 12:46:51 - INFO - 注册复选框未找到或无法点击，继续执行。Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="cookies"]"}
+  (Session info: chrome=126.0.6478.164); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:47:02 - INFO - 注册线程启动...
+2024-08-25 12:47:02 - INFO - 找到 5 个未注册账号
+2024-08-25 12:47:02 - INFO - 所有账号注册完成
+2024-08-25 12:47:02 - INFO - 账号配置文件已保存
+2024-08-25 12:47:02 - INFO - 代理配置文件已保存
+2024-08-25 12:47:02 - INFO - 商品链接配置文件已保存
+2024-08-25 12:47:02 - INFO - 自动加载了 5 个账号
+2024-08-25 12:47:02 - INFO - 自动加载了 2 个代理
+2024-08-25 12:47:02 - INFO - 自动加载了 2 个商品链接
+2024-08-25 12:47:07 - INFO - user1@example.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0081FD33+27651]
+	(No symbol) [0x007B5554]
+	(No symbol) [0x006B1ADF]
+	(No symbol) [0x006F2BFE]
+	(No symbol) [0x006F2CDB]
+	(No symbol) [0x0072EBD2]
+	(No symbol) [0x00713954]
+	(No symbol) [0x0072CA7D]
+	(No symbol) [0x007136A6]
+	(No symbol) [0x006E74E1]
+	(No symbol) [0x006E805D]
+	GetHandleVerifier [0x00AD6613+2872547]
+	GetHandleVerifier [0x00B2BADD+3221933]
+	GetHandleVerifier [0x008A2A94+563556]
+	GetHandleVerifier [0x008A9DCC+593052]
+	(No symbol) [0x007BE3A4]
+	(No symbol) [0x007BAE08]
+	(No symbol) [0x007BAFA7]
+	(No symbol) [0x007AD0AE]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-25 12:47:07 - INFO - 账号 user1@example.com 注册成功
+2024-08-25 12:47:16 - INFO - 所有账号注册完成
+2024-08-25 12:47:16 - INFO - 账号配置文件已保存
+2024-08-25 12:47:16 - INFO - 代理配置文件已保存
+2024-08-25 12:47:16 - INFO - 商品链接配置文件已保存
+2024-08-25 12:47:16 - INFO - 自动加载了 5 个账号
+2024-08-25 12:47:16 - INFO - 自动加载了 2 个代理
+2024-08-25 12:47:16 - INFO - 自动加载了 2 个商品链接

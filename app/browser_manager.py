@@ -11,7 +11,7 @@ class BrowserManager(QObject):
     def __init__(self, max_browsers):
         super().__init__()
         self.max_browsers = max_browsers
-        self.available_browsers = ['715eeebf02a04e45893ecd96a96a3ed5']
+        self.available_browsers = ['de2114dd1219458e8a413672ecab4ece']
         self.allocated_browsers = {}
 
     def create_browser(self):

@@ -1,8 +1,8 @@
 [
     {
         "email": "user1@example.com",
-        "password": "password1",
-        "status": "未注册"
+        "password": "Password1",
+        "status": "已注册"
     },
     {
         "email": "user2@example.com",

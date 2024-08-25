@@ -22,6 +22,7 @@ class MainWindow(QWidget):
 
         # 首先初始化浏览器管理器
         self.browser_manager = BrowserManager(max_browsers=10)  # 默认最大10个浏览器
+        self.threads_running = False  # 用于跟踪线程的运行状态
         # 启动时自动加载配置文件
         self.initUI()
         self.load_initial_configs()
@@ -108,6 +109,11 @@ class MainWindow(QWidget):
         self.start_registration_button = QPushButton("开始注册")
         self.start_registration_button.clicked.connect(self.start_registration)
         thread_config_layout.addWidget(self.start_registration_button)
+
+        # 添加总开关按钮
+        self.toggle_threads_button = QPushButton("启动线程")
+        self.toggle_threads_button.clicked.connect(self.toggle_threads)
+        thread_config_layout.addWidget(self.toggle_threads_button)
 
         thread_config_group.setLayout(thread_config_layout)
         second_row_layout.addWidget(thread_config_group)
@@ -220,6 +226,9 @@ class MainWindow(QWidget):
             self.log(f"保存配置文件时出错: {str(e)}")
 
     def start_registration(self):
+        self.threads_running = True
+        self.toggle_threads_button.setText("停止线程")
+
         thread_count = self.thread_spinbox.value()
         self.thread_status_table.setRowCount(thread_count)  # 动态设置线程状态表格行数
 
@@ -319,6 +328,44 @@ class MainWindow(QWidget):
         for i, (thread_name, browser_id) in enumerate(self.browser_manager.get_allocated_browsers().items()):
             self.browser_list_table.setItem(i, 0, QTableWidgetItem(thread_name))
             self.browser_list_table.setItem(i, 1, QTableWidgetItem(browser_id))
+
+    def start_registration(self):
+        self.threads_running = True
+        self.toggle_threads_button.setText("停止线程")
+
+        thread_count = self.thread_spinbox.value()
+        self.thread_status_table.setRowCount(thread_count)  # 动态设置线程状态表格行数
+
+        # 创建 RegistrationWorker 实例时传递 browser_manager
+        self.registration_worker = RegistrationWorker(
+            self.account_table,
+            thread_count,
+            self.log,
+            self.browser_manager  # 传递 browser_manager 实例
+        )
+
+        self.registration_worker.update_status.connect(self.update_thread_status)  # 连接信号更新线程状态
+        self.registration_worker.reload_table.connect(self.load_initial_configs)  # 连接信号到重新加载方法
+        self.registration_worker.save_configs_signal.connect(self.save_all_configs)  # 连接信号以保存配置
+        self.registration_worker.start()
+
+    def stop_threads(self):
+        self.threads_running = False
+        self.toggle_threads_button.setText("启动线程")
+
+        if hasattr(self, 'registration_worker') and self.registration_worker.isRunning():
+            self.registration_worker.stop()
+            # 需要在 RegistrationWorker 中实现 stop 方法来停止线程
+
+    def toggle_threads(self):
+        if self.threads_running:
+            # 停止线程
+            self.stop_threads()
+        else:
+            # 启动线程
+            self.start_registration()
+
+
 def run_app():
     app = QApplication(sys.argv)
     main_window = MainWindow()
