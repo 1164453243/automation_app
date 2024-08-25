@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLineEdit,
                              QPushButton, QTextEdit, QGroupBox, QTableWidget, QTableWidgetItem, QMenuBar, QAction,
-                             QMenu, QInputDialog, QSpinBox, QLabel, QHeaderView)
+                             QMenu, QInputDialog, QSpinBox, QLabel, QHeaderView, QFileDialog)
 from PyQt5.QtCore import Qt
 import logging
 from app.config_handler import load_config, save_config
@@ -38,7 +38,15 @@ class MainWindow(QWidget):
         save_action.triggered.connect(self.save_all_configs)
         file_menu.addAction(save_action)
 
+        # 增加导入账号的菜单项
+        import_action = QAction('导入账号', self)
+        import_action.triggered.connect(self.import_accounts)
+        file_menu.addAction(import_action)
         main_layout.setMenuBar(menu_bar)
+
+
+
+
 
         # 第一行：账号列表、代理列表、商品链接列表
         first_row_layout = QHBoxLayout()
@@ -156,6 +164,51 @@ class MainWindow(QWidget):
         self.setWindowTitle('自动化业务流程')
         self.setGeometry(100, 100, 1000, 600)
         self.show()
+
+    def import_accounts(self):
+        # 打开文件对话框选择要导入的文件
+        options = QFileDialog.Options()
+        file_name, _ = QFileDialog.getOpenFileName(self, "选择包含账号和密码的文件", "",
+                                                   "Text Files (*.txt);;All Files (*)", options=options)
+        if file_name:
+            # 读取并解析文件内容
+            with open(file_name, 'r', encoding='utf-8') as f:
+                file_content = f.read()
+
+            # 解析文件中的账号和密码
+            accounts = self.parse_accounts(file_content)
+
+            # 将账号信息加入到现有表格中
+            self.add_accounts_to_table(accounts)
+
+            # 保存解析后的账号信息
+            self.save_all_configs()
+
+    def parse_accounts(self, input_string):
+        accounts = []
+        lines = input_string.strip().split('\n')
+
+        for line in lines:
+            if '----' in line:
+                username, password = line.split('----')
+                accounts.append({
+                    'email': username.strip(),
+                    'password': password.strip(),
+                    'status': '未注册'
+                })
+
+        return accounts
+
+    def add_accounts_to_table(self, accounts):
+        # 现有账号的行数
+        current_row_count = self.account_table.rowCount()
+
+        # 将新导入的账号添加到表格中
+        self.account_table.setRowCount(current_row_count + len(accounts))
+        for i, account in enumerate(accounts):
+            self.account_table.setItem(current_row_count + i, 0, QTableWidgetItem(account['email']))
+            self.account_table.setItem(current_row_count + i, 1, QTableWidgetItem(account['password']))
+            self.account_table.setItem(current_row_count + i, 2, QTableWidgetItem(account['status']))
 
     def load_initial_configs(self):
         # 加载账号配置文件
@@ -328,26 +381,6 @@ class MainWindow(QWidget):
         for i, (thread_name, browser_id) in enumerate(self.browser_manager.get_allocated_browsers().items()):
             self.browser_list_table.setItem(i, 0, QTableWidgetItem(thread_name))
             self.browser_list_table.setItem(i, 1, QTableWidgetItem(browser_id))
-
-    def start_registration(self):
-        self.threads_running = True
-        self.toggle_threads_button.setText("停止线程")
-
-        thread_count = self.thread_spinbox.value()
-        self.thread_status_table.setRowCount(thread_count)  # 动态设置线程状态表格行数
-
-        # 创建 RegistrationWorker 实例时传递 browser_manager
-        self.registration_worker = RegistrationWorker(
-            self.account_table,
-            thread_count,
-            self.log,
-            self.browser_manager  # 传递 browser_manager 实例
-        )
-
-        self.registration_worker.update_status.connect(self.update_thread_status)  # 连接信号更新线程状态
-        self.registration_worker.reload_table.connect(self.load_initial_configs)  # 连接信号到重新加载方法
-        self.registration_worker.save_configs_signal.connect(self.save_all_configs)  # 连接信号以保存配置
-        self.registration_worker.start()
 
     def stop_threads(self):
         self.threads_running = False

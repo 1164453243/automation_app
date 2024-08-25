@@ -1,27 +1,7 @@
 [
     {
-        "email": "user1@example.com",
-        "password": "Password1",
+        "email": "don145@gmall1.com",
+        "password": "3ab$ed233",
         "status": "已注册"
-    },
-    {
-        "email": "user2@example.com",
-        "password": "123",
-        "status": "未注册"
-    },
-    {
-        "email": "user3@example.com",
-        "password": "456",
-        "status": "未注册"
-    },
-    {
-        "email": "user4@example.com",
-        "password": "789",
-        "status": "未注册"
-    },
-    {
-        "email": "user5@example.com",
-        "password": "abc",
-        "status": "未注册"
     }
 ]
