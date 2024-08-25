@@ -1,5 +1,7 @@
 import requests
 from time import sleep
+
+from selenium.webdriver import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -18,6 +20,22 @@ def handle_payment(self,driver,card_info):
         wait = WebDriverWait(driver, 10)
         # 打印页面源代码以帮助调试
         print(driver.page_source)
+
+        # 输入银行卡金额
+        price = card_info['price']
+
+        # 填写价格 From
+        price_from = wait.until(EC.visibility_of_element_located((By.NAME, 'min')))
+        price_from.clear()  # 清除默认值
+        price_from.send_keys(price-10)  # 输入起始价格
+        price_from.send_keys(Keys.RETURN)  # 按下回车键
+
+        # 填写价格 To
+        price_to = wait.until(EC.visibility_of_element_located((By.NAME, 'max')))
+        price_to.clear()  # 清除默认值
+        price_to.send_keys(price)  # 输入结束价格
+        price_to.send_keys(Keys.RETURN)  # 按下回车键
+
         sleep(2)
 
         # 等待商品列表加载完成并点击第一个商品

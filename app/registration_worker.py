@@ -53,19 +53,30 @@ class RegistrationWorker(QThread):
         self.save_configs_signal.emit()  # 触发信号保存配置
         self.reload_table.emit()  # 触发信号重新加载表格
 
-    def get_card_info(self):
+    def get_card_info(self, max_retries=9999, delay=2):
         url = "https://www.savestamp.com/api/get_and_update_random_order.php?token=123456"
-        try:
-            response = requests.get(url)
-            response_data = response.json()
-            if response_data['success']:
-                return response_data['data']
-            else:
-                self.log("获取银行卡信息失败")
-                return None
-        except Exception as e:
-            self.log(f"获取银行卡信息时出错: {str(e)}")
-            return None
+        retries = 0
+
+        while retries < max_retries:
+            try:
+                response = requests.get(url)
+                if response.status_code == 200:
+                    response_data = response.json()
+                    if response_data['success']:
+                        return response_data['data']
+                    else:
+                        self.log("获取银行卡信息失败: 响应中 success 字段为 False")
+                else:
+                    self.log(f"请求失败，状态码: {response.status_code}")
+            except Exception as e:
+                self.log(f"获取银行卡信息时出错: {str(e)}")
+
+            retries += 1
+            self.log(f"重试第 {retries} 次...")
+            time.sleep(delay)
+
+        self.log("超过最大重试次数，仍然无法获取银行卡信息")
+        return None
 
     def stop(self):
         self._is_running = False
@@ -141,7 +152,7 @@ class RegistrationWorker(QThread):
 
     def add_to_cart(self, browser,card_info):
         # 模拟加入购物车的操作
-        browser.get('https://www.g2a.com/category/games-c189')
+        browser.get('https://www.g2a.com/category/games-c189?sort=price-highest-first')
 
         handle_payment(self,browser,card_info)
 
