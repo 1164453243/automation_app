@@ -1,4 +1,3 @@
-[
-    "proxy1.example.com:8080",
-    "proxy2.example.com:8080"
-]
+{
+    "proxy_template": "proxy.ipipgo.com:31212:customer-fdd151c0-country-US-region-{region}-city-{city}-session-68da66416fdb428-time-5:618fed4c"
+}

@@ -1,6 +1,9 @@
+import itertools
+import json
+
 import requests
 from time import sleep
-
+from app.config_handler import load_config, save_config
 from selenium.webdriver import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -16,7 +19,7 @@ def update_payment_status(order_id, state):
 
 def handle_payment(self,driver,card_info):
     try:
-        self.log("abc")
+        # self.log("abc")
         wait = WebDriverWait(driver, 10)
         # 打印页面源代码以帮助调试
         print(driver.page_source)
@@ -24,35 +27,48 @@ def handle_payment(self,driver,card_info):
         # 输入银行卡金额
         price = card_info['price']
 
-        # 填写价格 From
-        price_from = wait.until(EC.visibility_of_element_located((By.NAME, 'min')))
-        price_from.clear()  # 清除默认值
-        price_from.send_keys(price-10)  # 输入起始价格
-        price_from.send_keys(Keys.RETURN)  # 按下回车键
+        # # 填写价格 From
+        # price_from = wait.until(EC.visibility_of_element_located((By.NAME, 'min')))
+        # price_from.clear()  # 清除默认值
+        # price_from.send_keys(price-10)  # 输入起始价格
+        # price_from.send_keys(Keys.RETURN)  # 按下回车键
+        #
+        # # 填写价格 To
+        # price_to = wait.until(EC.visibility_of_element_located((By.NAME, 'max')))
+        # price_to.clear()  # 清除默认值
+        # price_to.send_keys(price)  # 输入结束价格
+        # price_to.send_keys(Keys.RETURN)  # 按下回车键
 
-        # 填写价格 To
-        price_to = wait.until(EC.visibility_of_element_located((By.NAME, 'max')))
-        price_to.clear()  # 清除默认值
-        price_to.send_keys(price)  # 输入结束价格
-        price_to.send_keys(Keys.RETURN)  # 按下回车键
+        # sleep(2)
+        #
+        # # 等待商品列表加载完成并点击第一个商品
+        # first_product = wait.until(EC.element_to_be_clickable((By.XPATH, '(//a[contains(@class, "sc-jQAxuV")])[1]')))
+        # first_product.click()
+        #
+        # sleep(2)
+        # # 等待 "Add to cart" 按钮出现并点击它
+        # add_to_cart_button = wait.until(
+        #     EC.element_to_be_clickable((By.XPATH, '//button[@data-locator="ppa-payment__btn"]')))
+        # add_to_cart_button.click()
+        #
+        # sleep(2)
+        # # 点击继续购物车按钮
+        # continue_button = wait.until(
+        #     EC.element_to_be_clickable((By.XPATH, '//button[@data-event="cart-continue"]')))
+        # continue_button.click()
 
-        sleep(2)
+        handle_registration_and_add_to_cart(self,driver,'',price);
 
-        # 等待商品列表加载完成并点击第一个商品
-        first_product = wait.until(EC.element_to_be_clickable((By.XPATH, '(//a[contains(@class, "sc-jQAxuV")])[1]')))
-        first_product.click()
 
-        sleep(2)
-        # 等待 "Add to cart" 按钮出现并点击它
-        add_to_cart_button = wait.until(
-            EC.element_to_be_clickable((By.XPATH, '//button[@data-locator="ppa-payment__btn"]')))
-        add_to_cart_button.click()
+        driver.get('https://www.g2a.com/page/cart')
 
-        sleep(2)
+        ##跳转支付页面
         # 点击继续购物车按钮
         continue_button = wait.until(
             EC.element_to_be_clickable((By.XPATH, '//button[@data-event="cart-continue"]')))
         continue_button.click()
+
+
 
         sleep(2)
         # 选择支付方式（例如 Visa）
@@ -106,3 +122,77 @@ def handle_payment(self,driver,card_info):
     except Exception as e:
         print(f"An error occurred during the payment process: {e}")
         raise
+
+#选择商品逻辑
+def handle_registration_and_add_to_cart(self, driver, email, products):
+    try:
+        # 假设这里是账号注册逻辑，成功后会打印日志
+        # 这里加入你自己的账号注册逻辑
+        registration_success = True  # 假设注册成功
+        if registration_success:
+            # 寻找最佳商品组合
+            target_amount = products  # 这里可以根据你的实际需求设置目标金额
+            best_combination, best_total = find_best_combination(load_products_from_json(), target_amount)
+
+            if best_combination:
+                for product in best_combination:
+                    # 打开商品链接
+                    driver.get(product['link'])
+                    self.log(f"打开商品链接: {product['link']}")
+                    sleep(1)
+                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                    self.log("页面已滚动到底部(滚动到底部按钮才会显示)")
+
+                    sleep(2)
+
+                    # 等待 "Add to cart" 按钮出现并点击它
+                    wait = WebDriverWait(driver, 30)
+                    add_to_cart_button = wait.until(
+                        EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'ghEko')]"))
+                    )
+                    add_to_cart_button.click()
+
+                    self.log(f"已将商品 '{product['title']}' 添加到购物车，总金额: {best_total}")
+
+                    # 等待一段时间以确保操作完成
+                    sleep(2)
+            else:
+                self.log("未找到合适的商品组合，未能加入购物车")
+
+    except Exception as e:
+        self.log(f"处理账号注册和添加商品到购物车时出错: {str(e)}")
+        raise
+
+    # 读取 links.json 文件中的商品数据
+def load_products_from_json(file_path='links.json'):
+        try:
+
+                products = load_config('links.json')
+                # 确保价格是浮点数
+                for product in products:
+                    product['price'] = float(product['price'])
+                return products
+        except FileNotFoundError:
+            print(f"文件 {file_path} 未找到.")
+            return []
+        except json.JSONDecodeError:
+            print("解析 JSON 文件时出错.")
+            return []
+    # 根据给定的金额寻找最佳商品组合
+def find_best_combination(products, target_amount, max_combinations=3):
+    best_combination = None
+    best_total = 0
+
+    # 遍历所有可能的组合（最多 max_combinations 个商品）
+    for r in range(1, max_combinations + 1):
+        for combination in itertools.combinations(products, r):
+            # 确保所有价格都是浮点数
+            total = sum(float(item['price']) for item in combination)
+            if best_total < total <= float(target_amount):
+                best_combination = combination
+                best_total = total
+            # 如果已经找到一个完全匹配的组合，直接返回
+            if best_total == target_amount:
+                return best_combination, best_total
+
+    return best_combination, best_total

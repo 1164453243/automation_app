@@ -1,12 +1,10 @@
 import time
-from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import logging
 
 # 从 bit_api 导入 openBrowser（假设 bit_api 已实现）
-from app.bit_api import openBrowser
 from app.email_code import getCodeAndUrl
 
 
@@ -43,6 +41,7 @@ def register_account(self,driver,email, password, verification_code):
         submit_button.click()
 
         # 获取邮箱验证码
+        self.log(f"{email} - 获取邮箱验证码")
         verification_code, url = getCodeAndUrl(email, password, 0)
 
         # 等待验证码输入框出现并输入验证码 "123456"

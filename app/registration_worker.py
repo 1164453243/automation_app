@@ -1,5 +1,7 @@
+import json
 import threading
 import time
+import random
 
 import requests
 from PyQt5.QtCore import QThread, pyqtSignal
@@ -7,51 +9,65 @@ from PyQt5.QtWidgets import QTableWidgetItem
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-from app.bit_api import openBrowser
+from app.bit_api import openBrowser, url, headers
+from app.config_handler import load_config, parse_proxy_info
 from app.payment_handler import handle_payment
 from app.register_handler import register_account
+from app.thread_manager import ThreadManager
 
 
 class RegistrationWorker(QThread):
     update_status = pyqtSignal(int, str)
-    reload_table = pyqtSignal()  # 用于通知主线程重新加载表格
-    save_configs_signal = pyqtSignal()  # 用于通知主线程保存配置
+    reload_table = pyqtSignal()
+    save_configs_signal = pyqtSignal()
 
     def __init__(self, account_table, thread_count, log_callback, browser_manager):
         super().__init__()
         self.account_table = account_table
-        self._is_running = True
         self.thread_count = thread_count
         self.log = log_callback
-        self.browser_manager = browser_manager
-        self.threads = []
+        # self.browser_manager = browser_manager
+        self.thread_manager = ThreadManager(thread_count)
+        self.card_info_used = set()
+        self._is_running = True
 
     def run(self):
         self.log("注册线程启动...")
         accounts_to_register = self.get_unregistered_accounts()
         self.log(f"找到 {len(accounts_to_register)} 个未注册账号")
 
-
         for i, account in enumerate(accounts_to_register):
             if not self._is_running:
-                break  # 停止循环
-            # 获取银行卡信息
-            card_info = self.get_card_info()
+                break
+
+            card_info = self.get_unique_card_info()
             if not card_info:
                 self.log(f"线程{i + 1} - 获取银行卡信息失败")
                 continue
 
-            thread_name = f"线程{i + 1}"  # 设置线程名称为“线程1、线程2……”等
-            thread = threading.Thread(target=self.process_account, args=(i, account, thread_name,card_info))
-            self.threads.append(thread)
-            thread.start()
+            proxy_template = load_config('proxies.json').get('proxy_template', '')
+            proxy_str = proxy_template.format(region=card_info['province'], city=card_info['city'])
+            match_proxy = parse_proxy_info(proxy_str)
 
-        for i, thread in enumerate(self.threads):
-            thread.join()
+            if not match_proxy:
+                self.log(f"线程{i + 1} - 获取代理信息失败")
+                continue
 
+            thread_name = f"线程{i + 1}"
+            self.thread_manager.start_thread(self.process_account, (i, account, thread_name, card_info, match_proxy))
+
+        self.thread_manager.wait_for_completion()
         self.log("所有账号注册完成")
-        self.save_configs_signal.emit()  # 触发信号保存配置
-        self.reload_table.emit()  # 触发信号重新加载表格
+        self.save_configs_signal.emit()
+        self.reload_table.emit()
+
+    def get_unique_card_info(self):
+        while True:
+            card_info = self.get_card_info()
+            if card_info and card_info['card_number'] not in self.card_info_used:
+                self.card_info_used.add(card_info['card_number'])
+                return card_info
+            time.sleep(1)
 
     def get_card_info(self, max_retries=9999, delay=2):
         url = "https://www.savestamp.com/api/get_and_update_random_order.php?token=123456"
@@ -63,6 +79,7 @@ class RegistrationWorker(QThread):
                 if response.status_code == 200:
                     response_data = response.json()
                     if response_data['success']:
+                        self.log(f"获取银行卡成功:{response_data['data']}")
                         return response_data['data']
                     else:
                         self.log("获取银行卡信息失败: 响应中 success 字段为 False")
@@ -92,17 +109,14 @@ class RegistrationWorker(QThread):
                 unregistered.append((row, email, password))
         return unregistered
 
-    def process_account(self, thread_index, account, thread_name,card_info):
+    def process_account(self, thread_index, account, thread_name,card_info,proxy):
         row, email, password = account
-        browser_id = self.browser_manager.allocate_browser(thread_name)
 
-        while browser_id is None:  # 如果没有可用浏览器，则等待
-            if not self._is_running:
-                return  # 退出线程
-            time.sleep(1)
-            browser_id = self.browser_manager.allocate_browser(thread_name)
 
-        browser = self.create_browser_instance(browser_id)
+        if not self._is_running:
+           return  # 退出线程
+
+        browser = self.create_browser_instance(proxy)
         try:
             # 执行注册操作
             self.update_status.emit(thread_index, f"{email} - 注册中")
@@ -125,12 +139,55 @@ class RegistrationWorker(QThread):
 
         finally:
             browser.quit()
-            self.browser_manager.release_browser(thread_name)
+
 
         # 实时保存每次成功操作后的配置
         self.save_configs_signal.emit()
 
-    def create_browser_instance(self, browser_id):
+    def create_browser_instance(self,proxy):
+        # 使用 browser_id 创建比特浏览器实例
+        # 随机选择浏览器类型（安卓或iOS）
+        self.log('开始创建比特浏览器实例:')
+        browser_type = random.choice(['Android', 'IOS'])
+
+        # 根据随机选择的类型设置指纹和窗口尺寸
+        if browser_type == 'Android':
+            os_type = 'Android'
+            os_name = 'Linux armv81'
+            device_pixel_ratio = 2
+        else:
+            os_type = 'IOS'
+            os_name = 'iPhone'
+            device_pixel_ratio = 3
+
+        json_data = {
+            'name': f'{browser_type} browser',  # 可以根据需求自定义浏览器名称
+            'browserFingerPrint': {
+                'coreVersion': '118',  # 或者其他适当的版本
+                'ostype': os_type,  # 安卓或iOS
+                'os': os_name,  # 操作系统名称
+                'openWidth': 360,  # 窗口宽度
+                'openHeight': 748,  # 窗口高度
+                'resolutionType': '1',
+                'resolution': '360x748',
+                'devicePixelRatio': device_pixel_ratio
+            },
+            'proxyMethod': 2,  # 代理方式，2 表示自定义代理
+            "proxyType": "noproxy",
+            # 'proxyType': 'https',  # 根据传入的代理类型设置
+            # 'host': proxy['ip'],  # 代理主机
+            # 'port': proxy['port'],  # 代理端口
+            # 'proxyUserName': proxy['username'],  # 代理账号
+            # 'proxyPassword': proxy['password'],  # 代理密码
+        }
+
+        self.log(f"代理配置: {json_data}")
+        # 发送请求到比特浏览器 API，更新浏览器设置
+        res = requests.post(f"{url}/browser/update", data=json.dumps(json_data), headers=headers).json()
+        browser_id = res['data']['id']
+
+        print(f"Browser created with ID: {browser_id}")
+
         # 使用 browser_id 创建一个新的浏览器实例
         res = openBrowser(browser_id)
         driverPath = res['data']['driver']
