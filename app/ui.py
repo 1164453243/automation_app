@@ -7,25 +7,27 @@ from PyQt5.QtWidgets import (
     QMenuBar, QAction, QSpinBox, QLabel, QHeaderView, QFileDialog, QMenu, QInputDialog
 )
 from PyQt5.QtCore import Qt, QTimer
-import logging
 from app.config_handler import load_config, save_config
+from app.log_handler import setup_logging
 from app.registration_worker import RegistrationWorker
 from app.browser_manager import BrowserManager
+from app.thread_manager import ThreadManager
 
 # 设置日志记录
-logging.basicConfig(
-    filename='logs/app.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
-
+# logging.basicConfig(
+#     filename='logs/app.log',
+#     level=logging.INFO,
+#     format='%(asctime)s - %(levelname)s - %(message)s',
+#     datefmt='%Y-%m-%d %H:%M:%S'
+# )
+log_filename = 'logs/app.log'
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.log_lock = threading.Lock()  # 初始化线程锁
         self.browser_manager = BrowserManager(max_browsers=10)
         self.threads_running = False
+
         self.initUI()
         self.load_initial_configs()
         self.load_proxy_template()
@@ -362,7 +364,7 @@ class MainWindow(QWidget):
     def log(self, message):
         with self.log_lock:  # 使用线程锁保护日志记录
             self.log_output.append(message)
-            logging.info(message)
+            setup_logging(log_filename).info(message)
         # print(message)
 
     def set_max_browsers(self):

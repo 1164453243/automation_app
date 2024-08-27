@@ -13,43 +13,12 @@ from selenium.webdriver.chrome.service import Service
 from app.bit_api import openBrowser, url, headers, check_proxy
 from app.config_handler import load_config, parse_proxy_info
 from app.email_code import check_pay_status
+from app.log_handler import setup_logging
 from app.payment_handler import handle_payment
 from app.register_handler import register_account
 from app.thread_manager import ThreadManager
 
-logging.basicConfig(
-    filename='logs/pay.txt',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
-class ThreadManager:
-    def __init__(self, max_threads):
-        self.max_threads = max_threads
-        self.threads = []
-
-    def start_thread(self, target, args=()):
-        if len(self.threads) >= self.max_threads:
-            self.wait_for_completion()  # 等待现有线程完成
-
-        thread = threading.Thread(target=target, args=args)
-        self.threads.append(thread)
-        thread.start()
-
-    def stop_all_threads(self):
-        for thread in self.threads:
-            if thread.is_alive():
-                # 通知所有线程停止（假设线程内部检查 `_is_running`）
-                thread._is_running = False  # 假设目标函数检查此变量
-        # 等待所有线程完成
-        # self.wait_for_completion()
-
-    def wait_for_completion(self):
-        for thread in self.threads:
-            thread.join()  # 等待线程完成
-        self.threads.clear()  # 清除完成的线程
-
-
+pay_filename = 'config/pay.log'
 class RegistrationWorker(QThread):
     # update_status = pyqtSignal(int, str)
     # reload_table = pyqtSignal()
@@ -61,7 +30,7 @@ class RegistrationWorker(QThread):
         self.thread_count = thread_count
         self.log = log_callback
         self.log_lock = threading.Lock()
-        self.thread_manager = ThreadManager(thread_count)
+        self.thread_manager = ThreadManager(max_workers=thread_count)
         self.card_info_used = set()
         self._is_running = True
 
@@ -94,7 +63,7 @@ class RegistrationWorker(QThread):
                 continue
 
             thread_name = f"线程{i + 1}"
-            self.thread_manager.start_thread(self.process_account, (i, account, thread_name, card_info, match_proxy))
+            threading.Thread(target=self.thread_manager.start, args=(self.process_account,(i, account, thread_name, card_info, match_proxy)))
 
         self.thread_manager.wait_for_completion()
         self.log("所有账号注册完成")
@@ -105,7 +74,7 @@ class RegistrationWorker(QThread):
     def stop(self):
         self._is_running = False
         self.log("正在停止所有线程...")
-        self.thread_manager.stop_all_threads()
+        self.thread_manager.stop_processing()
 
     def get_unique_card_info(self):
         while self._is_running:
@@ -277,6 +246,4 @@ class RegistrationWorker(QThread):
 
     def pay_log(self, message):
         with self.log_lock:  # 使用线程锁保护日志记录
-            self.log(message)
-            logging.info(message)
-        # print(message)
+            setup_logging(pay_filename).log(message)
