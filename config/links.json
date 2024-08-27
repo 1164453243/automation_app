@@ -1,15 +1,5 @@
 [
     {
-        "title": "Product 1",
-        "price": "10.00",
-        "link": "http://example.com/product1"
-    },
-    {
-        "title": "Product 2",
-        "price": "20.00",
-        "link": "http://example.com/product2"
-    },
-    {
         "title": "abc",
         "price": "9.9",
         "link": "https://www.g2a.com/amazon-gift-card-10-usd-amazon-key-united-states-i10000001698108"

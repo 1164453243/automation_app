@@ -3,6 +3,9 @@ import json
 
 import requests
 from time import sleep
+
+from selenium.webdriver.support.select import Select
+
 from app.config_handler import load_config, save_config
 from selenium.webdriver import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -22,7 +25,7 @@ def handle_payment(self,driver,card_info):
         # self.log("abc")
         wait = WebDriverWait(driver, 10)
         # 打印页面源代码以帮助调试
-        print(driver.page_source)
+        #print(driver.page_source)
 
         # 输入银行卡金额
         price = card_info['price']
@@ -61,6 +64,7 @@ def handle_payment(self,driver,card_info):
 
 
         driver.get('https://www.g2a.com/page/cart')
+        sleep(2)
 
         ##跳转支付页面
         # 点击继续购物车按钮
@@ -114,7 +118,9 @@ def handle_payment(self,driver,card_info):
                 EC.element_to_be_clickable((By.XPATH, "//button[@type='submit' and text()='Confirm']")))
             submit_button.click()
 
-            self.log("支付表单已提交")
+            self.log("第一次支付表单已提交")
+            fill_billing_address(driver,card_info)
+            self.log("第二次支付表单已提交")
         except Exception as e:
             self.log(f"填写支付表单时出错: {str(e)}")
 
@@ -122,6 +128,34 @@ def handle_payment(self,driver,card_info):
     except Exception as e:
         print(f"An error occurred during the payment process: {e}")
         raise
+
+#二次填写表单
+def fill_billing_address(driver, card_info):
+    try:
+        wait = WebDriverWait(driver, 10)
+
+        # 等待并获取各个表单元素
+        # country_field = wait.until(EC.visibility_of_element_located((By.ID, "avsCountryCode")))
+        address_field = wait.until(EC.visibility_of_element_located((By.ID, "address")))
+        zip_field = wait.until(EC.visibility_of_element_located((By.ID, "zip")))
+
+        # 填写表单数据
+        # select_country = Select(country_field)
+        # select_country.select_by_value(card_info['country'])  # 根据国家代码选择国家
+        address_field.send_keys(card_info['street'])
+        zip_field.send_keys(card_info['postalcode'])
+
+        # 提交表单
+        submit_button = wait.until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn.btn-primary.btn-block"))
+        )
+        submit_button.click()
+
+        print("表单填写并提交成功！")
+
+    except Exception as e:
+        print(f"填写表单时出错: {str(e)}")
+
 
 #选择商品逻辑
 def handle_registration_and_add_to_cart(self, driver, email, products):
@@ -140,7 +174,7 @@ def handle_registration_and_add_to_cart(self, driver, email, products):
                     driver.get(product['link'])
                     self.log(f"打开商品链接: {product['link']}")
                     sleep(1)
-                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                    driver.execute_script("window.scrollTo(0, 1300);")
                     self.log("页面已滚动到底部(滚动到底部按钮才会显示)")
 
                     sleep(2)
@@ -148,17 +182,20 @@ def handle_registration_and_add_to_cart(self, driver, email, products):
                     # 等待 "Add to cart" 按钮出现并点击它
                     wait = WebDriverWait(driver, 30)
                     add_to_cart_button = wait.until(
-                        EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'ghEko')]"))
+                       # EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'ghEko')]"))
+                    EC.element_to_be_clickable((By.XPATH, '//button[@data-locator="ppa-payment__btn"]'))
+                   # data - locator = "ppa-payment__btn"
                     )
-                    add_to_cart_button.click()
+                    try:
+                        add_to_cart_button.click()
+                    except Exception as e:
+                        self.log(f"商品 '{product['title']}'无法找到")
 
                     self.log(f"已将商品 '{product['title']}' 添加到购物车，总金额: {best_total}")
-
-                    # 等待一段时间以确保操作完成
-                    sleep(2)
             else:
                 self.log("未找到合适的商品组合，未能加入购物车")
-
+            # 等待一段时间以确保操作完成
+            sleep(3)
     except Exception as e:
         self.log(f"处理账号注册和添加商品到购物车时出错: {str(e)}")
         raise

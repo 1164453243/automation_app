@@ -1,10 +1,12 @@
 import sys
+import threading
+
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLineEdit,
     QPushButton, QTextEdit, QGroupBox, QTableWidget, QTableWidgetItem,
     QMenuBar, QAction, QSpinBox, QLabel, QHeaderView, QFileDialog, QMenu, QInputDialog
 )
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QTimer
 import logging
 from app.config_handler import load_config, save_config
 from app.registration_worker import RegistrationWorker
@@ -21,11 +23,13 @@ logging.basicConfig(
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
+        self.log_lock = threading.Lock()  # 初始化线程锁
         self.browser_manager = BrowserManager(max_browsers=10)
         self.threads_running = False
         self.initUI()
         self.load_initial_configs()
         self.load_proxy_template()
+
 
     def initUI(self):
         main_layout = QVBoxLayout(self)
@@ -335,13 +339,14 @@ class MainWindow(QWidget):
             self.log,
             self.browser_manager
         )
-        self.connect_registration_worker_signals()
+        # self.connect_registration_worker_signals()
         self.registration_worker.start()
 
-    def connect_registration_worker_signals(self):
-        self.registration_worker.update_status.connect(self.update_thread_status)
-        self.registration_worker.reload_table.connect(self.load_initial_configs)
-        self.registration_worker.save_configs_signal.connect(self.save_all_configs)
+    # def connect_registration_worker_signals(self):
+        # self.registration_worker.update_status.connect(self.update_thread_status)
+        # self.registration_worker.reload_table.connect(self.load_initial_configs)
+        # self.registration_worker.save_configs_signal.connect(self.save_all_configs)
+        # self.registration_worker.log_signal.connect(self.log)
 
     def update_thread_status(self, thread_index, status_message):
         thread_name = f"线程{thread_index + 1}"
@@ -355,8 +360,10 @@ class MainWindow(QWidget):
             self.update_thread_status(i, status)
 
     def log(self, message):
-        self.log_output.append(message)
-        logging.info(message)
+        with self.log_lock:  # 使用线程锁保护日志记录
+            self.log_output.append(message)
+            logging.info(message)
+        # print(message)
 
     def set_max_browsers(self):
         self.browser_manager.set_max_browsers(self.max_browsers_spinbox.value())

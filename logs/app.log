@@ -5587,3 +5587,2254 @@ Stacktrace:
 2024-08-26 20:44:14 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
 2024-08-26 20:44:14 - INFO - 开始创建比特浏览器实例:
 2024-08-26 20:44:14 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:10:49 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:10:49 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:10:49 - INFO - 代理模板已加载
+2024-08-26 21:11:14 - INFO - 注册线程启动...
+2024-08-26 21:11:14 - INFO - 找到 4 个未注册账号
+2024-08-26 21:11:15 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 21:11:15 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:11:15 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:11:16 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:11:16 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:11:16 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:11:16 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-26 21:11:18 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:18 - INFO - 重试第 1 次...
+2024-08-26 21:11:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:21 - INFO - 重试第 2 次...
+2024-08-26 21:11:25 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:25 - INFO - 重试第 3 次...
+2024-08-26 21:11:27 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:27 - INFO - 重试第 4 次...
+2024-08-26 21:11:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:30 - INFO - 重试第 5 次...
+2024-08-26 21:11:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:33 - INFO - 重试第 6 次...
+2024-08-26 21:11:36 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:36 - INFO - 重试第 7 次...
+2024-08-26 21:11:38 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:11:40 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:11:42 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-26 21:11:44 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-26 21:11:45 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-26 21:11:45 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:11:45 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:11:46 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 21:11:48 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:48 - INFO - 重试第 1 次...
+2024-08-26 21:11:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:51 - INFO - 重试第 2 次...
+2024-08-26 21:11:53 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:53 - INFO - 重试第 3 次...
+2024-08-26 21:11:56 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:56 - INFO - 重试第 4 次...
+2024-08-26 21:11:59 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:11:59 - INFO - 重试第 5 次...
+2024-08-26 21:12:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:02 - INFO - 重试第 6 次...
+2024-08-26 21:12:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:05 - INFO - 重试第 7 次...
+2024-08-26 21:12:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:08 - INFO - 重试第 8 次...
+2024-08-26 21:12:11 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 21:12:13 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:12:14 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-26 21:12:16 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:12:18 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-26 21:12:20 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-26 21:12:22 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:22 - INFO - 重试第 1 次...
+2024-08-26 21:12:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:24 - INFO - 重试第 2 次...
+2024-08-26 21:12:27 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:27 - INFO - 重试第 3 次...
+2024-08-26 21:12:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:30 - INFO - 重试第 4 次...
+2024-08-26 21:12:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:33 - INFO - 重试第 5 次...
+2024-08-26 21:12:36 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:12:36 - INFO - 重试第 6 次...
+2024-08-26 21:12:46 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:12:46 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:12:46 - INFO - 代理模板已加载
+2024-08-26 21:12:50 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:12:50 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:12:50 - INFO - 代理模板已加载
+2024-08-26 21:13:08 - INFO - 注册线程启动...
+2024-08-26 21:13:08 - INFO - 找到 2 个未注册账号
+2024-08-26 21:13:09 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 21:13:09 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:13:09 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:13:10 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-26 21:13:11 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-26 21:13:11 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:13:11 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:13:19 - INFO - 所有账号注册完成
+2024-08-26 21:13:19 - INFO - 所有配置文件已保存
+2024-08-26 21:13:19 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:13:19 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:13:40 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:13:40 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:13:40 - INFO - 代理模板已加载
+2024-08-26 21:13:54 - INFO - 注册线程启动...
+2024-08-26 21:13:54 - INFO - 找到 3 个未注册账号
+2024-08-26 21:13:55 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:13:55 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:13:55 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:13:56 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-26 21:13:56 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:13:56 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:13:57 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:13:59 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:13:59 - INFO - 重试第 1 次...
+2024-08-26 21:14:01 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:01 - INFO - 重试第 2 次...
+2024-08-26 21:14:03 - INFO - Starting the registration process.
+2024-08-26 21:14:04 - INFO - Starting the registration process.
+2024-08-26 21:14:04 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:04 - INFO - 重试第 3 次...
+2024-08-26 21:14:07 - INFO - yoo773@gmall1.com - 获取邮箱验证码
+2024-08-26 21:14:07 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:07 - INFO - 重试第 4 次...
+2024-08-26 21:14:07 - INFO - eau250@gmall1.com - 获取邮箱验证码
+2024-08-26 21:14:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:11 - INFO - 重试第 5 次...
+2024-08-26 21:14:13 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:13 - INFO - 重试第 6 次...
+2024-08-26 21:14:16 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:16 - INFO - 重试第 7 次...
+2024-08-26 21:14:19 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:19 - INFO - 重试第 8 次...
+2024-08-26 21:14:21 - INFO - yoo773@gmall1.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x0091BAE0]
+	(No symbol) [0x0091BFAB]
+	(No symbol) [0x0094C2E2]
+	(No symbol) [0x00937F24]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:14:22 - INFO - abc
+2024-08-26 21:14:22 - INFO - 账号 yoo773@gmall1.com 注册成功
+2024-08-26 21:14:22 - INFO - eau250@gmall1.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x0091BAE0]
+	(No symbol) [0x0091BFAB]
+	(No symbol) [0x0094C2E2]
+	(No symbol) [0x00937F24]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:14:22 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:22 - INFO - 重试第 9 次...
+2024-08-26 21:14:23 - INFO - abc
+2024-08-26 21:14:23 - INFO - 账号 eau250@gmall1.com 注册成功
+2024-08-26 21:14:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:24 - INFO - 重试第 10 次...
+2024-08-26 21:14:27 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:27 - INFO - 重试第 11 次...
+2024-08-26 21:14:30 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-26 21:14:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:30 - INFO - 重试第 12 次...
+2024-08-26 21:14:31 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:14:31 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-26 21:14:32 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:14:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:33 - INFO - 重试第 13 次...
+2024-08-26 21:14:34 - INFO - 处理账号注册和添加商品到购物车时出错: Message: element click intercepted: Element <button class="sc-iCoGMd bKKVuU indexes__StyledButton-sc-1dyg2ka-17 ghEko">...</button> is not clickable at point (180, 21). Other element would receive the click: <div style="text-align:left">...</div>
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x00920931]
+	(No symbol) [0x0091F42F]
+	(No symbol) [0x0091DA1B]
+	(No symbol) [0x0091CDB5]
+	(No symbol) [0x0091531A]
+	(No symbol) [0x00937EDC]
+	(No symbol) [0x00914D56]
+	(No symbol) [0x00938154]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:14:35 - INFO - 处理账号注册和添加商品到购物车时出错: Message: element click intercepted: Element <button class="sc-iCoGMd bKKVuU indexes__StyledButton-sc-1dyg2ka-17 ghEko">...</button> is not clickable at point (180, 21). Other element would receive the click: <div style="text-align:left">...</div>
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x00920931]
+	(No symbol) [0x0091F42F]
+	(No symbol) [0x0091DA1B]
+	(No symbol) [0x0091CDB5]
+	(No symbol) [0x0091531A]
+	(No symbol) [0x00937EDC]
+	(No symbol) [0x00914D56]
+	(No symbol) [0x00938154]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:14:35 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:35 - INFO - 重试第 14 次...
+2024-08-26 21:14:38 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:38 - INFO - 重试第 15 次...
+2024-08-26 21:14:41 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:41 - INFO - 重试第 16 次...
+2024-08-26 21:14:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:44 - INFO - 重试第 17 次...
+2024-08-26 21:14:47 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:47 - INFO - 重试第 18 次...
+2024-08-26 21:14:50 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:50 - INFO - 重试第 19 次...
+2024-08-26 21:14:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:52 - INFO - 重试第 20 次...
+2024-08-26 21:14:55 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:55 - INFO - 重试第 21 次...
+2024-08-26 21:14:58 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:14:58 - INFO - 重试第 22 次...
+2024-08-26 21:15:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:00 - INFO - 重试第 23 次...
+2024-08-26 21:15:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:03 - INFO - 重试第 24 次...
+2024-08-26 21:15:06 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:06 - INFO - 重试第 25 次...
+2024-08-26 21:15:09 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:09 - INFO - 重试第 26 次...
+2024-08-26 21:15:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:11 - INFO - 重试第 27 次...
+2024-08-26 21:15:14 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:14 - INFO - 重试第 28 次...
+2024-08-26 21:15:17 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:17 - INFO - 重试第 29 次...
+2024-08-26 21:15:19 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:19 - INFO - 重试第 30 次...
+2024-08-26 21:15:22 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:22 - INFO - 重试第 31 次...
+2024-08-26 21:15:25 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:25 - INFO - 重试第 32 次...
+2024-08-26 21:15:28 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:28 - INFO - 重试第 33 次...
+2024-08-26 21:15:31 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:31 - INFO - 重试第 34 次...
+2024-08-26 21:15:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:33 - INFO - 重试第 35 次...
+2024-08-26 21:15:36 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:36 - INFO - 重试第 36 次...
+2024-08-26 21:15:39 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:39 - INFO - 重试第 37 次...
+2024-08-26 21:15:42 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:42 - INFO - 重试第 38 次...
+2024-08-26 21:15:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:44 - INFO - 重试第 39 次...
+2024-08-26 21:15:47 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:47 - INFO - 重试第 40 次...
+2024-08-26 21:15:50 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:50 - INFO - 重试第 41 次...
+2024-08-26 21:15:53 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:53 - INFO - 重试第 42 次...
+2024-08-26 21:15:56 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:56 - INFO - 重试第 43 次...
+2024-08-26 21:15:59 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:15:59 - INFO - 重试第 44 次...
+2024-08-26 21:16:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:02 - INFO - 重试第 45 次...
+2024-08-26 21:16:04 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:04 - INFO - 重试第 46 次...
+2024-08-26 21:16:07 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:07 - INFO - 重试第 47 次...
+2024-08-26 21:16:10 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:10 - INFO - 重试第 48 次...
+2024-08-26 21:16:13 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:13 - INFO - 重试第 49 次...
+2024-08-26 21:16:16 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:16 - INFO - 重试第 50 次...
+2024-08-26 21:16:18 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:18 - INFO - 重试第 51 次...
+2024-08-26 21:16:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:21 - INFO - 重试第 52 次...
+2024-08-26 21:16:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:24 - INFO - 重试第 53 次...
+2024-08-26 21:16:27 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:27 - INFO - 重试第 54 次...
+2024-08-26 21:16:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:30 - INFO - 重试第 55 次...
+2024-08-26 21:16:32 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:32 - INFO - 重试第 56 次...
+2024-08-26 21:16:35 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:35 - INFO - 重试第 57 次...
+2024-08-26 21:16:38 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:38 - INFO - 重试第 58 次...
+2024-08-26 21:16:41 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:41 - INFO - 重试第 59 次...
+2024-08-26 21:16:43 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:43 - INFO - 重试第 60 次...
+2024-08-26 21:16:46 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:46 - INFO - 重试第 61 次...
+2024-08-26 21:16:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:49 - INFO - 重试第 62 次...
+2024-08-26 21:16:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:51 - INFO - 重试第 63 次...
+2024-08-26 21:16:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:54 - INFO - 重试第 64 次...
+2024-08-26 21:16:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:16:57 - INFO - 重试第 65 次...
+2024-08-26 21:17:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:00 - INFO - 重试第 66 次...
+2024-08-26 21:17:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:03 - INFO - 重试第 67 次...
+2024-08-26 21:17:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:05 - INFO - 重试第 68 次...
+2024-08-26 21:17:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:08 - INFO - 重试第 69 次...
+2024-08-26 21:17:12 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:12 - INFO - 重试第 70 次...
+2024-08-26 21:17:15 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:15 - INFO - 重试第 71 次...
+2024-08-26 21:17:17 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:17 - INFO - 重试第 72 次...
+2024-08-26 21:17:20 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:20 - INFO - 重试第 73 次...
+2024-08-26 21:17:23 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:23 - INFO - 重试第 74 次...
+2024-08-26 21:17:26 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:26 - INFO - 重试第 75 次...
+2024-08-26 21:17:28 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:28 - INFO - 重试第 76 次...
+2024-08-26 21:17:31 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:31 - INFO - 重试第 77 次...
+2024-08-26 21:17:34 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:34 - INFO - 重试第 78 次...
+2024-08-26 21:17:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:37 - INFO - 重试第 79 次...
+2024-08-26 21:17:39 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:39 - INFO - 重试第 80 次...
+2024-08-26 21:17:42 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:42 - INFO - 重试第 81 次...
+2024-08-26 21:17:45 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:45 - INFO - 重试第 82 次...
+2024-08-26 21:17:48 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:48 - INFO - 重试第 83 次...
+2024-08-26 21:17:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:51 - INFO - 重试第 84 次...
+2024-08-26 21:17:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:54 - INFO - 重试第 85 次...
+2024-08-26 21:17:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:57 - INFO - 重试第 86 次...
+2024-08-26 21:17:59 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:17:59 - INFO - 重试第 87 次...
+2024-08-26 21:18:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:02 - INFO - 重试第 88 次...
+2024-08-26 21:18:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:05 - INFO - 重试第 89 次...
+2024-08-26 21:18:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:08 - INFO - 重试第 90 次...
+2024-08-26 21:18:10 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:10 - INFO - 重试第 91 次...
+2024-08-26 21:18:13 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:13 - INFO - 重试第 92 次...
+2024-08-26 21:18:16 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:16 - INFO - 重试第 93 次...
+2024-08-26 21:18:19 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:19 - INFO - 重试第 94 次...
+2024-08-26 21:18:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:21 - INFO - 重试第 95 次...
+2024-08-26 21:18:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:24 - INFO - 重试第 96 次...
+2024-08-26 21:18:27 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:27 - INFO - 重试第 97 次...
+2024-08-26 21:18:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:30 - INFO - 重试第 98 次...
+2024-08-26 21:18:32 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:32 - INFO - 重试第 99 次...
+2024-08-26 21:18:35 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:35 - INFO - 重试第 100 次...
+2024-08-26 21:18:38 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:38 - INFO - 重试第 101 次...
+2024-08-26 21:18:40 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:40 - INFO - 重试第 102 次...
+2024-08-26 21:18:43 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:43 - INFO - 重试第 103 次...
+2024-08-26 21:18:46 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:46 - INFO - 重试第 104 次...
+2024-08-26 21:18:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:49 - INFO - 重试第 105 次...
+2024-08-26 21:18:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:51 - INFO - 重试第 106 次...
+2024-08-26 21:18:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:54 - INFO - 重试第 107 次...
+2024-08-26 21:18:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:18:57 - INFO - 重试第 108 次...
+2024-08-26 21:19:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:00 - INFO - 重试第 109 次...
+2024-08-26 21:19:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:02 - INFO - 重试第 110 次...
+2024-08-26 21:19:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:05 - INFO - 重试第 111 次...
+2024-08-26 21:19:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:08 - INFO - 重试第 112 次...
+2024-08-26 21:19:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:11 - INFO - 重试第 113 次...
+2024-08-26 21:19:13 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:13 - INFO - 重试第 114 次...
+2024-08-26 21:19:16 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:16 - INFO - 重试第 115 次...
+2024-08-26 21:19:19 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:19 - INFO - 重试第 116 次...
+2024-08-26 21:19:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:21 - INFO - 重试第 117 次...
+2024-08-26 21:19:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:24 - INFO - 重试第 118 次...
+2024-08-26 21:19:27 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:27 - INFO - 重试第 119 次...
+2024-08-26 21:19:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:30 - INFO - 重试第 120 次...
+2024-08-26 21:19:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:33 - INFO - 重试第 121 次...
+2024-08-26 21:19:36 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:36 - INFO - 重试第 122 次...
+2024-08-26 21:19:38 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:38 - INFO - 重试第 123 次...
+2024-08-26 21:19:41 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:41 - INFO - 重试第 124 次...
+2024-08-26 21:19:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:44 - INFO - 重试第 125 次...
+2024-08-26 21:19:46 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:46 - INFO - 重试第 126 次...
+2024-08-26 21:19:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:49 - INFO - 重试第 127 次...
+2024-08-26 21:19:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:52 - INFO - 重试第 128 次...
+2024-08-26 21:19:55 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:55 - INFO - 重试第 129 次...
+2024-08-26 21:19:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:19:57 - INFO - 重试第 130 次...
+2024-08-26 21:20:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:00 - INFO - 重试第 131 次...
+2024-08-26 21:20:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:03 - INFO - 重试第 132 次...
+2024-08-26 21:20:06 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:06 - INFO - 重试第 133 次...
+2024-08-26 21:20:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:08 - INFO - 重试第 134 次...
+2024-08-26 21:20:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:11 - INFO - 重试第 135 次...
+2024-08-26 21:20:14 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:14 - INFO - 重试第 136 次...
+2024-08-26 21:20:17 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:17 - INFO - 重试第 137 次...
+2024-08-26 21:20:19 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:19 - INFO - 重试第 138 次...
+2024-08-26 21:20:22 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:22 - INFO - 重试第 139 次...
+2024-08-26 21:20:25 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:25 - INFO - 重试第 140 次...
+2024-08-26 21:20:28 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:28 - INFO - 重试第 141 次...
+2024-08-26 21:20:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:30 - INFO - 重试第 142 次...
+2024-08-26 21:20:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:33 - INFO - 重试第 143 次...
+2024-08-26 21:20:36 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:36 - INFO - 重试第 144 次...
+2024-08-26 21:20:39 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:39 - INFO - 重试第 145 次...
+2024-08-26 21:20:42 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:42 - INFO - 重试第 146 次...
+2024-08-26 21:20:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:44 - INFO - 重试第 147 次...
+2024-08-26 21:20:47 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:47 - INFO - 重试第 148 次...
+2024-08-26 21:20:50 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:50 - INFO - 重试第 149 次...
+2024-08-26 21:20:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:52 - INFO - 重试第 150 次...
+2024-08-26 21:20:55 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:55 - INFO - 重试第 151 次...
+2024-08-26 21:20:58 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:20:58 - INFO - 重试第 152 次...
+2024-08-26 21:21:01 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:01 - INFO - 重试第 153 次...
+2024-08-26 21:21:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:03 - INFO - 重试第 154 次...
+2024-08-26 21:21:06 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:06 - INFO - 重试第 155 次...
+2024-08-26 21:21:09 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:09 - INFO - 重试第 156 次...
+2024-08-26 21:21:12 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:12 - INFO - 重试第 157 次...
+2024-08-26 21:21:15 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:15 - INFO - 重试第 158 次...
+2024-08-26 21:21:18 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:18 - INFO - 重试第 159 次...
+2024-08-26 21:21:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:21 - INFO - 重试第 160 次...
+2024-08-26 21:21:23 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:23 - INFO - 重试第 161 次...
+2024-08-26 21:21:26 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:26 - INFO - 重试第 162 次...
+2024-08-26 21:21:29 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:29 - INFO - 重试第 163 次...
+2024-08-26 21:21:32 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:32 - INFO - 重试第 164 次...
+2024-08-26 21:21:34 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:34 - INFO - 重试第 165 次...
+2024-08-26 21:21:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:37 - INFO - 重试第 166 次...
+2024-08-26 21:21:40 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:40 - INFO - 重试第 167 次...
+2024-08-26 21:21:43 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:43 - INFO - 重试第 168 次...
+2024-08-26 21:21:45 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:45 - INFO - 重试第 169 次...
+2024-08-26 21:21:48 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:48 - INFO - 重试第 170 次...
+2024-08-26 21:21:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:51 - INFO - 重试第 171 次...
+2024-08-26 21:21:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:54 - INFO - 重试第 172 次...
+2024-08-26 21:21:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:57 - INFO - 重试第 173 次...
+2024-08-26 21:21:59 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:21:59 - INFO - 重试第 174 次...
+2024-08-26 21:22:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:02 - INFO - 重试第 175 次...
+2024-08-26 21:22:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:05 - INFO - 重试第 176 次...
+2024-08-26 21:22:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:08 - INFO - 重试第 177 次...
+2024-08-26 21:22:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:11 - INFO - 重试第 178 次...
+2024-08-26 21:22:14 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:14 - INFO - 重试第 179 次...
+2024-08-26 21:22:17 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:17 - INFO - 重试第 180 次...
+2024-08-26 21:22:19 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:19 - INFO - 重试第 181 次...
+2024-08-26 21:22:22 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:22:22 - INFO - 重试第 182 次...
+2024-08-26 21:22:48 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:22:48 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:22:48 - INFO - 代理模板已加载
+2024-08-26 21:23:34 - INFO - 注册线程启动...
+2024-08-26 21:23:34 - INFO - 找到 1 个未注册账号
+2024-08-26 21:23:35 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:23:35 - INFO - 重试第 1 次...
+2024-08-26 21:23:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:23:37 - INFO - 重试第 2 次...
+2024-08-26 21:23:40 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:23:40 - INFO - 重试第 3 次...
+2024-08-26 21:23:43 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:23:43 - INFO - 重试第 4 次...
+2024-08-26 21:23:45 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 21:23:45 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:23:45 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:23:51 - INFO - Starting the registration process.
+2024-08-26 21:23:55 - INFO - qku618@gmall1.com - 获取邮箱验证码
+2024-08-26 21:24:40 - INFO - 正在停止所有线程...
+2024-08-26 21:24:52 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:24:52 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:24:52 - INFO - 代理模板已加载
+2024-08-26 21:25:06 - INFO - 注册线程启动...
+2024-08-26 21:25:06 - INFO - 找到 2 个未注册账号
+2024-08-26 21:25:07 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-26 21:25:07 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:25:07 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:25:07 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:25:07 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:25:07 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:25:08 - INFO - 所有账号注册完成
+2024-08-26 21:25:08 - INFO - 所有配置文件已保存
+2024-08-26 21:25:08 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:25:08 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:25:53 - INFO - 注册线程启动...
+2024-08-26 21:25:53 - INFO - 找到 2 个未注册账号
+2024-08-26 21:25:54 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-26 21:25:54 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:25:54 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:25:55 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-26 21:25:55 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:25:55 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:25:59 - INFO - Starting the registration process.
+2024-08-26 21:26:01 - INFO - Starting the registration process.
+2024-08-26 21:26:02 - INFO - eau250@gmall1.com - 获取邮箱验证码
+2024-08-26 21:26:04 - INFO - pxp887@gmall1.com - 获取邮箱验证码
+2024-08-26 21:26:10 - INFO - eau250@gmall1.com - 验证码输入失败。Error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x008CFD72]
+	(No symbol) [0x0093BC4B]
+	(No symbol) [0x0094A483]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:26:11 - INFO - abc
+2024-08-26 21:26:11 - INFO - 账号 eau250@gmall1.com 注册成功
+2024-08-26 21:26:15 - INFO - pxp887@gmall1.com - 验证码输入成功
+2024-08-26 21:26:16 - INFO - abc
+2024-08-26 21:26:16 - INFO - 账号 pxp887@gmall1.com 注册成功
+2024-08-26 21:26:23 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-26 21:26:24 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:26:47 - INFO - 处理账号注册和添加商品到购物车时出错: Message: element click intercepted: Element <button class="sc-iCoGMd bKKVuU indexes__StyledButton-sc-1dyg2ka-17 ghEko">...</button> is not clickable at point (169, 21). Other element would receive the click: <div style="text-align:left">...</div>
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x00920931]
+	(No symbol) [0x0091F42F]
+	(No symbol) [0x0091DA1B]
+	(No symbol) [0x0091CDB5]
+	(No symbol) [0x0091531A]
+	(No symbol) [0x00937EDC]
+	(No symbol) [0x00914D56]
+	(No symbol) [0x00938154]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:26:49 - INFO - 所有账号注册完成
+2024-08-26 21:26:49 - INFO - 所有配置文件已保存
+2024-08-26 21:26:49 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:26:49 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:32:16 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:32:16 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:32:16 - INFO - 代理模板已加载
+2024-08-26 21:33:16 - INFO - 注册线程启动...
+2024-08-26 21:33:16 - INFO - 找到 1 个未注册账号
+2024-08-26 21:33:17 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:33:17 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:33:17 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:33:24 - INFO - Starting the registration process.
+2024-08-26 21:33:37 - ERROR - An error occurred during registration: Message: 
+
+2024-08-26 21:33:42 - INFO - 账号 ixz529@gmall1.com 注册成功
+2024-08-26 21:34:15 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:34:15 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:34:15 - INFO - 代理模板已加载
+2024-08-26 21:34:18 - INFO - 注册线程启动...
+2024-08-26 21:34:18 - INFO - 找到 0 个未注册账号
+2024-08-26 21:34:18 - INFO - 所有账号注册完成
+2024-08-26 21:34:18 - INFO - 所有配置文件已保存
+2024-08-26 21:34:18 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:34:18 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:34:30 - INFO - 注册线程启动...
+2024-08-26 21:34:30 - INFO - 找到 1 个未注册账号
+2024-08-26 21:34:31 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:31 - INFO - 重试第 1 次...
+2024-08-26 21:34:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:33 - INFO - 重试第 2 次...
+2024-08-26 21:34:36 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:36 - INFO - 重试第 3 次...
+2024-08-26 21:34:39 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:39 - INFO - 重试第 4 次...
+2024-08-26 21:34:42 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:42 - INFO - 重试第 5 次...
+2024-08-26 21:34:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:44 - INFO - 重试第 6 次...
+2024-08-26 21:34:47 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:47 - INFO - 重试第 7 次...
+2024-08-26 21:34:50 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:50 - INFO - 重试第 8 次...
+2024-08-26 21:34:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:54 - INFO - 重试第 9 次...
+2024-08-26 21:34:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:57 - INFO - 重试第 10 次...
+2024-08-26 21:34:59 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:34:59 - INFO - 重试第 11 次...
+2024-08-26 21:35:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:35:02 - INFO - 重试第 12 次...
+2024-08-26 21:35:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:35:05 - INFO - 重试第 13 次...
+2024-08-26 21:35:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:35:08 - INFO - 重试第 14 次...
+2024-08-26 21:35:10 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:35:10 - INFO - 重试第 15 次...
+2024-08-26 21:35:13 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-26 21:35:13 - INFO - 重试第 16 次...
+2024-08-26 21:40:40 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:40:40 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:40:40 - INFO - 代理模板已加载
+2024-08-26 21:40:55 - INFO - 注册线程启动...
+2024-08-26 21:40:55 - INFO - 找到 1 个未注册账号
+2024-08-26 21:40:56 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 21:40:56 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:40:56 - INFO - 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:41:09 - INFO - Starting the registration process.
+2024-08-26 21:41:12 - INFO - pxp887@gmall1.com - 获取邮箱验证码
+2024-08-26 21:41:26 - INFO - pxp887@gmall1.com - 验证码输入失败。Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x0091BAE0]
+	(No symbol) [0x0091BFAB]
+	(No symbol) [0x0094C2E2]
+	(No symbol) [0x00937F24]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:41:31 - INFO - 账号 pxp887@gmall1.com 注册成功
+2024-08-26 21:41:35 - INFO - 打开商品链接: http://example.com/product1
+2024-08-26 21:41:36 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:42:08 - INFO - 处理账号注册和添加商品到购物车时出错: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x0091BAE0]
+	(No symbol) [0x0091BFAB]
+	(No symbol) [0x0094C2E2]
+	(No symbol) [0x00937F24]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:42:15 - INFO - 所有账号注册完成
+2024-08-26 21:42:15 - INFO - 所有配置文件已保存
+2024-08-26 21:42:15 - INFO - 自动加载了 5 个记录从 accounts.json
+2024-08-26 21:42:15 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:42:36 - INFO - 所有配置文件已保存
+2024-08-26 21:42:49 - INFO - 所有配置文件已保存
+2024-08-26 21:42:49 - INFO - 删除了表格中的一行并已保存
+2024-08-26 21:43:10 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 21:43:10 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:43:10 - INFO - 代理模板已加载
+2024-08-26 21:43:17 - INFO - 注册线程启动...
+2024-08-26 21:43:17 - INFO - 找到 1 个未注册账号
+2024-08-26 21:43:17 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-26 21:43:17 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:43:17 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:43:22 - INFO - Starting the registration process.
+2024-08-26 21:43:26 - INFO - jmq124@gmall1.com - 获取邮箱验证码
+2024-08-26 21:43:36 - INFO - jmq124@gmall1.com - 验证码输入成功
+2024-08-26 21:43:41 - INFO - 账号 jmq124@gmall1.com 注册成功
+2024-08-26 21:43:48 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-26 21:43:49 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:44:21 - INFO - 处理账号注册和添加商品到购物车时出错: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x0091BAE0]
+	(No symbol) [0x0091BFAB]
+	(No symbol) [0x0094C2E2]
+	(No symbol) [0x00937F24]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:44:27 - INFO - 所有账号注册完成
+2024-08-26 21:44:27 - INFO - 所有配置文件已保存
+2024-08-26 21:44:27 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 21:44:27 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:50:49 - INFO - 所有配置文件已保存
+2024-08-26 21:50:51 - INFO - 注册线程启动...
+2024-08-26 21:50:51 - INFO - 找到 1 个未注册账号
+2024-08-26 21:50:52 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-26 21:50:52 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:50:52 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:51:07 - INFO - Starting the registration process.
+2024-08-26 21:51:11 - INFO - dky475@gmall1.com - 获取邮箱验证码
+2024-08-26 21:51:23 - INFO - dky475@gmall1.com - 验证码输入成功
+2024-08-26 21:51:28 - INFO - 账号 dky475@gmall1.com 注册成功
+2024-08-26 21:52:11 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-26 21:52:12 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:52:15 - INFO - 处理账号注册和添加商品到购物车时出错: Message: element click intercepted: Element <button class="sc-iCoGMd bKKVuU indexes__StyledButton-sc-1dyg2ka-17 ghEko">...</button> is not clickable at point (180, 21). Other element would receive the click: <div style="text-align:left">...</div>
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x00920931]
+	(No symbol) [0x0091F42F]
+	(No symbol) [0x0091DA1B]
+	(No symbol) [0x0091CDB5]
+	(No symbol) [0x0091531A]
+	(No symbol) [0x00937EDC]
+	(No symbol) [0x00914D56]
+	(No symbol) [0x00938154]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:52:21 - INFO - 所有账号注册完成
+2024-08-26 21:52:21 - INFO - 所有配置文件已保存
+2024-08-26 21:52:21 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 21:52:21 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:58:02 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 21:58:02 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 21:58:02 - INFO - 代理模板已加载
+2024-08-26 21:58:16 - INFO - 所有配置文件已保存
+2024-08-26 21:58:17 - INFO - 注册线程启动...
+2024-08-26 21:58:17 - INFO - 找到 1 个未注册账号
+2024-08-26 21:58:18 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-26 21:58:18 - INFO - 开始创建比特浏览器实例:
+2024-08-26 21:58:18 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 21:58:33 - INFO - Starting the registration process.
+2024-08-26 21:58:36 - INFO - ixz529@gmall1.com - 获取邮箱验证码
+2024-08-26 21:58:46 - INFO - ixz529@gmall1.com - 验证码输入成功
+2024-08-26 21:58:51 - INFO - 账号 ixz529@gmall1.com 注册成功
+2024-08-26 21:59:11 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-26 21:59:12 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 21:59:16 - INFO - 处理账号注册和添加商品到购物车时出错: Message: javascript error: $ is not defined
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x008EC2ED]
+	(No symbol) [0x008EDD59]
+	(No symbol) [0x0094B16B]
+	(No symbol) [0x00937EDC]
+	(No symbol) [0x0094A94A]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-26 21:59:22 - INFO - 所有账号注册完成
+2024-08-26 21:59:22 - INFO - 所有配置文件已保存
+2024-08-26 21:59:22 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 21:59:22 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 22:01:06 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 22:01:06 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 22:01:06 - INFO - 代理模板已加载
+2024-08-26 22:01:26 - INFO - 注册线程启动...
+2024-08-26 22:01:26 - INFO - 找到 1 个未注册账号
+2024-08-26 22:01:28 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-26 22:01:28 - INFO - 开始创建比特浏览器实例:
+2024-08-26 22:01:28 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 22:01:42 - INFO - Starting the registration process.
+2024-08-26 22:01:45 - INFO - ple570@gmall1.com - 获取邮箱验证码
+2024-08-26 22:01:58 - INFO - ple570@gmall1.com - 验证码输入成功
+2024-08-26 22:02:03 - INFO - 账号 ple570@gmall1.com 注册成功
+2024-08-26 22:02:24 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-26 22:02:25 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 22:02:27 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-26 22:02:35 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-26 22:02:36 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 22:02:38 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-26 22:02:46 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-26 22:02:47 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 22:02:49 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-26 22:03:20 - INFO - https://www.g2a.com/payment/checkout/checkout/082024/2ab25378-55c3-4838-b63d-1248451b7ef3 - 获取到的支付页面 URL: https://www.g2a.com/payment/checkout/checkout/082024/2ab25378-55c3-4838-b63d-1248451b7ef3
+2024-08-26 22:03:24 - INFO - 支付表单已提交
+2024-08-26 22:03:24 - INFO - 账号 ple570@gmall1.com 加入购物车完成
+2024-08-26 22:03:30 - INFO - 所有账号注册完成
+2024-08-26 22:03:30 - INFO - 所有配置文件已保存
+2024-08-26 22:03:30 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 22:03:30 - INFO - 自动加载了 6 个记录从 links.json
+2024-08-26 22:04:09 - INFO - 所有配置文件已保存
+2024-08-26 22:04:09 - INFO - 删除了表格中的一行并已保存
+2024-08-26 22:04:10 - INFO - 所有配置文件已保存
+2024-08-26 22:04:10 - INFO - 删除了表格中的一行并已保存
+2024-08-26 22:13:23 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 22:13:23 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-26 22:13:23 - INFO - 代理模板已加载
+2024-08-26 22:25:58 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 22:25:58 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-26 22:25:58 - INFO - 代理模板已加载
+2024-08-26 22:26:35 - INFO - 注册线程启动...
+2024-08-26 22:26:35 - INFO - 找到 1 个未注册账号
+2024-08-26 22:26:36 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-26 22:26:36 - INFO - 开始创建比特浏览器实例:
+2024-08-26 22:26:36 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 22:27:16 - INFO - Starting the registration process.
+2024-08-26 22:27:19 - INFO - ncf028@gmall1.com - 获取邮箱验证码
+2024-08-26 22:27:28 - INFO - ncf028@gmall1.com - 验证码输入成功
+2024-08-26 22:27:33 - INFO - 账号 ncf028@gmall1.com 注册成功
+2024-08-26 22:27:55 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-10-usd-amazon-key-united-states-i10000001698108
+2024-08-26 22:27:56 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 22:27:58 - INFO - 已将商品 'abc' 添加到购物车，总金额: 62.34
+2024-08-26 22:28:07 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-26 22:28:08 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 22:28:10 - INFO - 已将商品 'abc' 添加到购物车，总金额: 62.34
+2024-08-26 22:28:17 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-26 22:28:18 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-26 22:28:20 - INFO - 已将商品 'abc' 添加到购物车，总金额: 62.34
+2024-08-26 22:28:47 - INFO - 所有账号注册完成
+2024-08-26 22:28:47 - INFO - 所有配置文件已保存
+2024-08-26 22:28:47 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 22:28:47 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-26 22:42:47 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-26 22:42:47 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-26 22:42:47 - INFO - 代理模板已加载
+2024-08-26 22:42:56 - INFO - 注册线程启动...
+2024-08-26 22:42:56 - INFO - 找到 1 个未注册账号
+2024-08-26 22:42:57 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-26 22:42:57 - INFO - 开始创建比特浏览器实例:
+2024-08-26 22:42:57 - INFO - 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 0.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-26 22:43:07 - INFO - Starting the registration process.
+2024-08-26 22:43:07 - ERROR - An error occurred during registration: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00A6B6E3+43907]
+	(No symbol) [0x009F5D11]
+	(No symbol) [0x008E876D]
+	(No symbol) [0x008CFD72]
+	(No symbol) [0x0093BC4B]
+	(No symbol) [0x0094A483]
+	(No symbol) [0x00937CD6]
+	(No symbol) [0x009134FE]
+	(No symbol) [0x009146AD]
+	GetHandleVerifier [0x00D21EC9+2888553]
+	GetHandleVerifier [0x00D6AB5B+3186683]
+	GetHandleVerifier [0x00D64811+3161265]
+	GetHandleVerifier [0x00AF5CB0+610640]
+	(No symbol) [0x009FFD1C]
+	(No symbol) [0x009FBC08]
+	(No symbol) [0x009FBD2F]
+	(No symbol) [0x009EE387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-27 09:20:18 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:20:18 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:20:18 - INFO - 代理模板已加载
+2024-08-27 09:20:20 - INFO - 注册线程启动...
+2024-08-27 09:20:20 - INFO - 找到 0 个未注册账号
+2024-08-27 09:20:20 - INFO - 所有账号注册完成
+2024-08-27 09:20:20 - INFO - 所有配置文件已保存
+2024-08-27 09:20:20 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:20:20 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:20:27 - INFO - 注册线程启动...
+2024-08-27 09:20:27 - INFO - 找到 1 个未注册账号
+2024-08-27 09:20:27 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 09:20:27 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:20:27 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 1.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:20:29 - INFO - ncf028@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AA7FB5F890>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 09:20:29 - INFO - ncf028@gmall1.com 停止线程
+2024-08-27 09:20:29 - INFO - 所有账号注册完成
+2024-08-27 09:20:29 - INFO - 所有配置文件已保存
+2024-08-27 09:20:29 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:20:29 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:22:08 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:22:08 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:22:08 - INFO - 代理模板已加载
+2024-08-27 09:22:10 - INFO - 注册线程启动...
+2024-08-27 09:22:10 - INFO - 找到 1 个未注册账号
+2024-08-27 09:22:11 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 09:22:11 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:22:11 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 1.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:22:20 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:22:20 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:22:20 - INFO - 代理模板已加载
+2024-08-27 09:22:24 - INFO - 注册线程启动...
+2024-08-27 09:22:24 - INFO - 找到 1 个未注册账号
+2024-08-27 09:22:25 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 09:22:25 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:22:25 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 1.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:22:27 - INFO - ncf028@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017AD76BF3D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 09:22:27 - INFO - ncf028@gmall1.com 停止线程
+2024-08-27 09:22:27 - INFO - 所有账号注册完成
+2024-08-27 09:22:27 - INFO - 所有配置文件已保存
+2024-08-27 09:22:27 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:22:27 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:24:07 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:24:07 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:24:07 - INFO - 代理模板已加载
+2024-08-27 09:27:22 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:27:22 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:27:22 - INFO - 代理模板已加载
+2024-08-27 09:27:24 - INFO - 注册线程启动...
+2024-08-27 09:27:24 - INFO - 找到 1 个未注册账号
+2024-08-27 09:27:25 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:27:25 - INFO - 重试第 1 次...
+2024-08-27 09:27:28 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:27:28 - INFO - 重试第 2 次...
+2024-08-27 09:27:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:27:30 - INFO - 重试第 3 次...
+2024-08-27 09:27:33 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:27:33 - INFO - 重试第 4 次...
+2024-08-27 09:27:35 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:27:35 - INFO - 重试第 5 次...
+2024-08-27 09:27:38 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:27:38 - INFO - 重试第 6 次...
+2024-08-27 09:27:40 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 09:27:40 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:27:40 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 1.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:28:17 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:28:17 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:28:17 - INFO - 代理模板已加载
+2024-08-27 09:28:23 - INFO - 注册线程启动...
+2024-08-27 09:28:23 - INFO - 找到 1 个未注册账号
+2024-08-27 09:28:24 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 09:28:24 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:28:24 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 1.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:28:26 - INFO - ncf028@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B2CD80F110>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 09:28:26 - INFO - ncf028@gmall1.com 停止线程
+2024-08-27 09:28:26 - INFO - 所有账号注册完成
+2024-08-27 09:28:26 - INFO - 所有配置文件已保存
+2024-08-27 09:28:26 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:28:26 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:31:03 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:31:03 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:31:03 - INFO - 代理模板已加载
+2024-08-27 09:31:04 - INFO - 注册线程启动...
+2024-08-27 09:31:04 - INFO - 找到 1 个未注册账号
+2024-08-27 09:31:05 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 09:31:05 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:31:05 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 1.5}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:31:07 - INFO - ncf028@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000297E528ED10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 09:31:07 - INFO - ncf028@gmall1.com 停止线程
+2024-08-27 09:31:07 - INFO - 所有账号注册完成
+2024-08-27 09:31:07 - INFO - 所有配置文件已保存
+2024-08-27 09:31:07 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:31:07 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:35:48 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:35:48 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:35:48 - INFO - 代理模板已加载
+2024-08-27 09:35:55 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:35:55 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:35:55 - INFO - 代理模板已加载
+2024-08-27 09:35:59 - INFO - 注册线程启动...
+2024-08-27 09:35:59 - INFO - 找到 1 个未注册账号
+2024-08-27 09:36:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:36:00 - INFO - 重试第 1 次...
+2024-08-27 09:36:02 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:36:02 - INFO - 重试第 2 次...
+2024-08-27 09:36:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:36:05 - INFO - 重试第 3 次...
+2024-08-27 09:36:07 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:36:07 - INFO - 重试第 4 次...
+2024-08-27 09:39:04 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:39:04 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:39:04 - INFO - 代理模板已加载
+2024-08-27 09:39:06 - INFO - 注册线程启动...
+2024-08-27 09:39:06 - INFO - 找到 1 个未注册账号
+2024-08-27 09:39:06 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 09:39:06 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:39:06 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:40:41 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:40:41 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:40:41 - INFO - 代理模板已加载
+2024-08-27 09:40:43 - INFO - 注册线程启动...
+2024-08-27 09:40:43 - INFO - 找到 1 个未注册账号
+2024-08-27 09:40:44 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 09:40:44 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:40:44 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:40:46 - INFO - ncf028@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020849D2F290>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 09:40:46 - INFO - ncf028@gmall1.com 停止线程
+2024-08-27 09:40:46 - INFO - 所有账号注册完成
+2024-08-27 09:40:46 - INFO - 所有配置文件已保存
+2024-08-27 09:40:46 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:40:46 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:48:13 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:48:13 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:48:13 - INFO - 代理模板已加载
+2024-08-27 09:48:26 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:48:26 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:48:26 - INFO - 代理模板已加载
+2024-08-27 09:49:54 - INFO - 注册线程启动...
+2024-08-27 09:49:54 - INFO - 找到 1 个未注册账号
+2024-08-27 09:49:55 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:49:55 - INFO - 重试第 1 次...
+2024-08-27 09:49:58 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:49:58 - INFO - 重试第 2 次...
+2024-08-27 09:50:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:50:00 - INFO - 重试第 3 次...
+2024-08-27 09:50:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 09:50:03 - INFO - 重试第 4 次...
+2024-08-27 09:50:05 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 09:50:05 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:50:05 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:50:13 - INFO - 正在停止所有线程...
+2024-08-27 09:50:19 - INFO - Starting the registration process.
+2024-08-27 09:57:37 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 09:57:37 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 09:57:37 - INFO - 代理模板已加载
+2024-08-27 09:57:41 - INFO - 注册线程启动...
+2024-08-27 09:57:41 - INFO - 找到 1 个未注册账号
+2024-08-27 09:57:41 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 09:57:41 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 09:57:41 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 09:58:18 - INFO - Starting the registration process.
+2024-08-27 09:58:21 - INFO - ncf028@gmall1.com - 获取邮箱验证码
+2024-08-27 10:00:45 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:00:45 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:00:45 - INFO - 代理模板已加载
+2024-08-27 10:00:47 - INFO - 注册线程启动...
+2024-08-27 10:00:47 - INFO - 找到 1 个未注册账号
+2024-08-27 10:00:48 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 10:00:59 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:00:59 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:00:59 - INFO - 代理模板已加载
+2024-08-27 10:01:01 - INFO - 注册线程启动...
+2024-08-27 10:01:01 - INFO - 找到 1 个未注册账号
+2024-08-27 10:01:01 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:01:01 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:01:01 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:01:20 - INFO - Starting the registration process.
+2024-08-27 10:04:21 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:04:21 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:04:21 - INFO - 代理模板已加载
+2024-08-27 10:04:22 - INFO - 注册线程启动...
+2024-08-27 10:04:22 - INFO - 找到 1 个未注册账号
+2024-08-27 10:04:23 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:04:23 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:04:23 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:04:56 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:04:56 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:04:56 - INFO - 代理模板已加载
+2024-08-27 10:04:57 - INFO - 注册线程启动...
+2024-08-27 10:04:57 - INFO - 找到 1 个未注册账号
+2024-08-27 10:04:58 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 10:04:58 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:04:58 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:05:07 - INFO - Starting the registration process.
+2024-08-27 10:05:12 - INFO - ncf028@gmall1.com - 注册失败，提示信息: The email has already been taken.
+2024-08-27 10:05:17 - INFO - 账号 ncf028@gmall1.com 注册成功
+2024-08-27 10:05:48 - INFO - 所有账号注册完成
+2024-08-27 10:05:48 - INFO - 所有配置文件已保存
+2024-08-27 10:05:48 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:05:48 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:06:46 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:06:46 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:06:46 - INFO - 代理模板已加载
+2024-08-27 10:06:47 - INFO - 注册线程启动...
+2024-08-27 10:06:47 - INFO - 找到 0 个未注册账号
+2024-08-27 10:06:47 - INFO - 所有账号注册完成
+2024-08-27 10:06:47 - INFO - 所有配置文件已保存
+2024-08-27 10:06:47 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:06:47 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:06:57 - INFO - 注册线程启动...
+2024-08-27 10:06:57 - INFO - 找到 1 个未注册账号
+2024-08-27 10:06:58 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:06:58 - INFO - 重试第 1 次...
+2024-08-27 10:07:00 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:07:00 - INFO - 重试第 2 次...
+2024-08-27 10:07:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:07:03 - INFO - 重试第 3 次...
+2024-08-27 10:07:05 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:07:05 - INFO - 重试第 4 次...
+2024-08-27 10:07:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:07:08 - INFO - 重试第 5 次...
+2024-08-27 10:07:10 - INFO - 获取银行卡成功:{'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:07:16 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:07:16 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:07:16 - INFO - 代理模板已加载
+2024-08-27 10:07:17 - INFO - 注册线程启动...
+2024-08-27 10:07:17 - INFO - 找到 0 个未注册账号
+2024-08-27 10:07:17 - INFO - 所有账号注册完成
+2024-08-27 10:07:17 - INFO - 所有配置文件已保存
+2024-08-27 10:07:17 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:07:17 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:07:25 - INFO - 注册线程启动...
+2024-08-27 10:07:25 - INFO - 找到 1 个未注册账号
+2024-08-27 10:07:25 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 10:07:25 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:07:25 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:07:35 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:07:35 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:07:35 - INFO - 代理模板已加载
+2024-08-27 10:07:38 - INFO - 注册线程启动...
+2024-08-27 10:07:38 - INFO - 找到 0 个未注册账号
+2024-08-27 10:07:38 - INFO - 所有账号注册完成
+2024-08-27 10:07:38 - INFO - 所有配置文件已保存
+2024-08-27 10:07:38 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:07:38 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:07:45 - INFO - 注册线程启动...
+2024-08-27 10:07:45 - INFO - 找到 1 个未注册账号
+2024-08-27 10:07:45 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:07:52 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:07:52 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:07:52 - INFO - 代理模板已加载
+2024-08-27 10:08:00 - INFO - 注册线程启动...
+2024-08-27 10:08:00 - INFO - 找到 1 个未注册账号
+2024-08-27 10:08:01 - INFO - 获取银行卡成功:{'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 10:08:01 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:08:01 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:08:43 - INFO - 所有账号注册完成
+2024-08-27 10:08:43 - INFO - 所有配置文件已保存
+2024-08-27 10:08:43 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:08:43 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:09:44 - INFO - 注册线程启动...
+2024-08-27 10:09:44 - INFO - 找到 1 个未注册账号
+2024-08-27 10:09:45 - INFO - 获取银行卡成功:{'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 10:09:45 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:09:45 - INFO - ncf028@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:10:14 - INFO - 所有账号注册完成
+2024-08-27 10:10:14 - INFO - 所有配置文件已保存
+2024-08-27 10:10:14 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:10:14 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:11:24 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:11:24 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:11:24 - INFO - 代理模板已加载
+2024-08-27 10:11:26 - INFO - 注册线程启动...
+2024-08-27 10:11:26 - INFO - 找到 1 个未注册账号
+2024-08-27 10:11:27 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 10:11:27 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:11:27 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:11:59 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-10-usd-amazon-key-united-states-i10000001698108
+2024-08-27 10:12:00 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:12:02 - INFO - 已将商品 'abc' 添加到购物车，总金额: 62.34
+2024-08-27 10:12:53 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-27 10:12:54 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:12:56 - INFO - 已将商品 'abc' 添加到购物车，总金额: 62.34
+2024-08-27 10:13:02 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-27 10:13:03 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:13:35 - INFO - 处理账号注册和添加商品到购物车时出错: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00CEB6E3+43907]
+	(No symbol) [0x00C75D11]
+	(No symbol) [0x00B6876D]
+	(No symbol) [0x00B9BAE0]
+	(No symbol) [0x00B9BFAB]
+	(No symbol) [0x00BCC2E2]
+	(No symbol) [0x00BB7F24]
+	(No symbol) [0x00BCA94A]
+	(No symbol) [0x00BB7CD6]
+	(No symbol) [0x00B934FE]
+	(No symbol) [0x00B946AD]
+	GetHandleVerifier [0x00FA1EC9+2888553]
+	GetHandleVerifier [0x00FEAB5B+3186683]
+	GetHandleVerifier [0x00FE4811+3161265]
+	GetHandleVerifier [0x00D75CB0+610640]
+	(No symbol) [0x00C7FD1C]
+	(No symbol) [0x00C7BC08]
+	(No symbol) [0x00C7BD2F]
+	(No symbol) [0x00C6E387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-27 10:13:41 - INFO - 所有账号注册完成
+2024-08-27 10:13:41 - INFO - 所有配置文件已保存
+2024-08-27 10:13:41 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:13:41 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:16:19 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:16:19 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:16:19 - INFO - 代理模板已加载
+2024-08-27 10:16:21 - INFO - 注册线程启动...
+2024-08-27 10:16:21 - INFO - 找到 1 个未注册账号
+2024-08-27 10:16:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:21 - INFO - 重试第 1 次...
+2024-08-27 10:16:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:24 - INFO - 重试第 2 次...
+2024-08-27 10:16:26 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:26 - INFO - 重试第 3 次...
+2024-08-27 10:16:29 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:29 - INFO - 重试第 4 次...
+2024-08-27 10:16:31 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:31 - INFO - 重试第 5 次...
+2024-08-27 10:16:34 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:34 - INFO - 重试第 6 次...
+2024-08-27 10:16:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:37 - INFO - 重试第 7 次...
+2024-08-27 10:16:39 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:39 - INFO - 重试第 8 次...
+2024-08-27 10:16:42 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:42 - INFO - 重试第 9 次...
+2024-08-27 10:16:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:44 - INFO - 重试第 10 次...
+2024-08-27 10:16:47 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:47 - INFO - 重试第 11 次...
+2024-08-27 10:16:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:49 - INFO - 重试第 12 次...
+2024-08-27 10:16:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:16:52 - INFO - 重试第 13 次...
+2024-08-27 10:16:54 - INFO - 获取银行卡成功:{'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 10:16:54 - INFO - ncf028@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:16:54 - INFO - ncf028@gmall1.com代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:17:07 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-27 10:17:08 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:17:11 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 10:17:22 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-27 10:17:23 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:17:25 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 10:17:35 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-27 10:17:36 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:17:39 - INFO - 商品 'abc'无法找到
+2024-08-27 10:17:39 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 10:18:03 - INFO - 所有账号注册完成
+2024-08-27 10:18:03 - INFO - 所有配置文件已保存
+2024-08-27 10:18:03 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:18:03 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:20:24 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:20:24 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:20:24 - INFO - 代理模板已加载
+2024-08-27 10:20:39 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:20:39 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:20:39 - INFO - 代理模板已加载
+2024-08-27 10:20:59 - INFO - 注册线程启动...
+2024-08-27 10:20:59 - INFO - 找到 1 个未注册账号
+2024-08-27 10:20:59 - INFO - 获取银行卡成功:{'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 10:20:59 - INFO - bkq180@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:20:59 - INFO - bkq180@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:21:11 - INFO - Starting the registration process.
+2024-08-27 10:21:25 - INFO - bkq180@gmall1.com - 未发现重复注册提示，继续进行。
+2024-08-27 10:21:25 - INFO - bkq180@gmall1.com - 获取邮箱验证码
+2024-08-27 10:21:29 - INFO - bkq180@gmall1.com - 验证码输入成功
+2024-08-27 10:21:34 - INFO - 账号 bkq180@gmall1.com 注册成功
+2024-08-27 10:21:40 - INFO - 所有账号注册完成
+2024-08-27 10:21:40 - INFO - 所有配置文件已保存
+2024-08-27 10:21:40 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:21:40 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:22:54 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:22:54 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:22:54 - INFO - 代理模板已加载
+2024-08-27 10:23:10 - INFO - 注册线程启动...
+2024-08-27 10:23:10 - INFO - 找到 1 个未注册账号
+2024-08-27 10:23:10 - INFO - 获取银行卡成功:{'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:23:10 - INFO - ikb444@gmall1.com开始创建比特浏览器实例:
+2024-08-27 10:23:10 - INFO - ikb444@gmall1.com代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:27:21 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:27:21 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:27:21 - INFO - 代理模板已加载
+2024-08-27 10:27:29 - INFO - 注册线程启动...
+2024-08-27 10:27:29 - INFO - 找到 1 个未注册账号
+2024-08-27 10:27:29 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 10:27:29 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:27:29 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:27:30 - INFO - Browser created with ID: d61b56f3ab7e4440a7605f6d2dfe5060
+2024-08-27 10:28:15 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:28:15 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:28:15 - INFO - 代理模板已加载
+2024-08-27 10:28:28 - INFO - 注册线程启动...
+2024-08-27 10:28:28 - INFO - 找到 0 个未注册账号
+2024-08-27 10:28:28 - INFO - 所有账号注册完成
+2024-08-27 10:28:28 - INFO - 所有配置文件已保存
+2024-08-27 10:28:28 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:28:28 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:28:34 - INFO - 注册线程启动...
+2024-08-27 10:28:34 - INFO - 找到 1 个未注册账号
+2024-08-27 10:29:04 - INFO - 获取银行卡信息时出错: HTTPSConnectionPool(host='www.savestamp.com', port=443): Max retries exceeded with url: /api/get_and_update_random_order.php?token=123456 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2024-08-27 10:29:04 - INFO - 重试第 1 次...
+2024-08-27 10:29:07 - INFO - 获取银行卡成功: {'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:29:26 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:29:26 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:29:26 - INFO - 代理模板已加载
+2024-08-27 10:29:27 - INFO - 注册线程启动...
+2024-08-27 10:29:27 - INFO - 找到 0 个未注册账号
+2024-08-27 10:29:27 - INFO - 所有账号注册完成
+2024-08-27 10:29:27 - INFO - 所有配置文件已保存
+2024-08-27 10:29:27 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:29:27 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:29:33 - INFO - 注册线程启动...
+2024-08-27 10:29:33 - INFO - 找到 1 个未注册账号
+2024-08-27 10:29:34 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 10:29:34 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:29:34 - INFO - bkq180@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:29:36 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B5D41C110>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:29:36 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:29:36 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:29:36 - INFO - 所有账号注册完成
+2024-08-27 10:29:36 - INFO - 所有配置文件已保存
+2024-08-27 10:29:36 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:29:36 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:29:47 - INFO - 注册线程启动...
+2024-08-27 10:29:47 - INFO - 找到 1 个未注册账号
+2024-08-27 10:29:48 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:29:48 - INFO - 重试第 1 次...
+2024-08-27 10:29:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:29:51 - INFO - 重试第 2 次...
+2024-08-27 10:29:52 - INFO - 正在停止所有线程...
+2024-08-27 10:30:04 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:30:04 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:30:04 - INFO - 代理模板已加载
+2024-08-27 10:30:05 - INFO - 注册线程启动...
+2024-08-27 10:30:05 - INFO - 找到 1 个未注册账号
+2024-08-27 10:30:06 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:30:06 - INFO - 重试第 1 次...
+2024-08-27 10:30:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:30:08 - INFO - 重试第 2 次...
+2024-08-27 10:30:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:30:11 - INFO - 重试第 3 次...
+2024-08-27 10:30:14 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:30:14 - INFO - 重试第 4 次...
+2024-08-27 10:30:17 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 10:32:45 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:32:45 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:32:45 - INFO - 代理模板已加载
+2024-08-27 10:33:29 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:33:29 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:33:29 - INFO - 代理模板已加载
+2024-08-27 10:33:31 - INFO - 注册线程启动...
+2024-08-27 10:33:31 - INFO - 找到 1 个未注册账号
+2024-08-27 10:33:31 - INFO - 获取银行卡成功: {'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 10:33:31 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:33:31 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:34:44 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:34:44 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:34:44 - INFO - 代理模板已加载
+2024-08-27 10:34:46 - INFO - 注册线程启动...
+2024-08-27 10:34:46 - INFO - 找到 1 个未注册账号
+2024-08-27 10:34:46 - INFO - 获取银行卡成功: {'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:34:46 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:34:51 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:34:57 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A77741CBD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:34:59 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:35:08 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:35:12 - INFO - 所有账号注册完成
+2024-08-27 10:35:12 - INFO - 所有配置文件已保存
+2024-08-27 10:35:12 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:35:12 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:35:19 - INFO - 注册线程启动...
+2024-08-27 10:35:19 - INFO - 找到 1 个未注册账号
+2024-08-27 10:35:20 - INFO - 获取银行卡成功: {'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 10:35:20 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:35:22 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:35:29 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A777427D50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:35:30 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:35:33 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:35:34 - INFO - 所有账号注册完成
+2024-08-27 10:35:34 - INFO - 所有配置文件已保存
+2024-08-27 10:35:34 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:35:34 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:35:47 - INFO - 注册线程启动...
+2024-08-27 10:35:47 - INFO - 找到 1 个未注册账号
+2024-08-27 10:35:48 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:35:48 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:35:48 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:35:50 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A7760F7910>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:35:50 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:35:50 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:35:50 - INFO - 所有账号注册完成
+2024-08-27 10:35:50 - INFO - 所有配置文件已保存
+2024-08-27 10:35:50 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:35:50 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:36:34 - INFO - 注册线程启动...
+2024-08-27 10:36:34 - INFO - 找到 1 个未注册账号
+2024-08-27 10:36:35 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 10:36:35 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:36:35 - INFO - bkq180@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:36:37 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A776203790>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:36:37 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:36:37 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:36:37 - INFO - 所有账号注册完成
+2024-08-27 10:36:37 - INFO - 所有配置文件已保存
+2024-08-27 10:36:37 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:36:37 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:36:40 - INFO - 注册线程启动...
+2024-08-27 10:36:40 - INFO - 找到 1 个未注册账号
+2024-08-27 10:36:41 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:41 - INFO - 重试第 1 次...
+2024-08-27 10:36:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:44 - INFO - 重试第 2 次...
+2024-08-27 10:36:46 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:46 - INFO - 重试第 3 次...
+2024-08-27 10:36:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:49 - INFO - 重试第 4 次...
+2024-08-27 10:36:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:52 - INFO - 重试第 5 次...
+2024-08-27 10:36:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:54 - INFO - 重试第 6 次...
+2024-08-27 10:36:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:36:57 - INFO - 重试第 7 次...
+2024-08-27 10:36:59 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 10:36:59 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:36:59 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:37:01 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A77741D4D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:37:01 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:37:01 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:37:01 - INFO - 所有账号注册完成
+2024-08-27 10:37:01 - INFO - 所有配置文件已保存
+2024-08-27 10:37:01 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:37:01 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:37:23 - INFO - 注册线程启动...
+2024-08-27 10:37:23 - INFO - 找到 1 个未注册账号
+2024-08-27 10:37:23 - INFO - 获取银行卡成功: {'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 10:37:24 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:37:24 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:37:26 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A77744FF50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:37:26 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:37:26 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:37:26 - INFO - 所有账号注册完成
+2024-08-27 10:37:26 - INFO - 所有配置文件已保存
+2024-08-27 10:37:26 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:37:26 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:37:46 - INFO - 注册线程启动...
+2024-08-27 10:37:46 - INFO - 找到 1 个未注册账号
+2024-08-27 10:37:46 - INFO - 获取银行卡成功: {'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:37:46 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:37:46 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:37:48 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A7762B4C10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:37:48 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:37:48 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:37:48 - INFO - 所有账号注册完成
+2024-08-27 10:37:48 - INFO - 所有配置文件已保存
+2024-08-27 10:37:48 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:37:48 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:38:05 - INFO - 注册线程启动...
+2024-08-27 10:38:05 - INFO - 找到 1 个未注册账号
+2024-08-27 10:38:05 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:38:05 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:38:05 - INFO - bkq180@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:38:07 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A777427B10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:38:07 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:38:07 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:38:07 - INFO - 所有账号注册完成
+2024-08-27 10:38:07 - INFO - 所有配置文件已保存
+2024-08-27 10:38:07 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:38:07 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:38:18 - INFO - 注册线程启动...
+2024-08-27 10:38:18 - INFO - 找到 1 个未注册账号
+2024-08-27 10:38:19 - INFO - 获取银行卡成功: {'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 10:38:19 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:38:19 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:38:21 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A775F0DD10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:38:21 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:38:21 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:38:21 - INFO - 所有账号注册完成
+2024-08-27 10:38:21 - INFO - 所有配置文件已保存
+2024-08-27 10:38:21 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:38:21 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:38:31 - INFO - 注册线程启动...
+2024-08-27 10:38:31 - INFO - 找到 1 个未注册账号
+2024-08-27 10:38:32 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 10:38:32 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:38:32 - INFO - bkq180@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:38:34 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A777427410>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:38:34 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:38:34 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:38:34 - INFO - 所有账号注册完成
+2024-08-27 10:38:34 - INFO - 所有配置文件已保存
+2024-08-27 10:38:34 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:38:34 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:38:45 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:38:45 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:38:45 - INFO - 代理模板已加载
+2024-08-27 10:38:49 - INFO - 注册线程启动...
+2024-08-27 10:38:49 - INFO - 找到 1 个未注册账号
+2024-08-27 10:38:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:38:49 - INFO - 重试第 1 次...
+2024-08-27 10:38:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:38:52 - INFO - 重试第 2 次...
+2024-08-27 10:38:54 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:38:54 - INFO - 重试第 3 次...
+2024-08-27 10:38:57 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 10:38:57 - INFO - 重试第 4 次...
+2024-08-27 10:38:59 - INFO - 获取银行卡成功: {'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 10:38:59 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:38:59 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:39:01 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F0B24C3D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:39:01 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:39:01 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:39:01 - INFO - 所有账号注册完成
+2024-08-27 10:39:01 - INFO - 所有配置文件已保存
+2024-08-27 10:39:01 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:39:01 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:39:30 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:39:30 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:39:30 - INFO - 代理模板已加载
+2024-08-27 10:39:31 - INFO - 注册线程启动...
+2024-08-27 10:39:31 - INFO - 找到 1 个未注册账号
+2024-08-27 10:39:32 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 10:39:32 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:39:32 - INFO - bkq180@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:39:34 - INFO - bkq180@gmall1.com 创建浏览器出错: HTTPConnectionPool(host='127.0.0.1', port=54345): Max retries exceeded with url: /browser/update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275640041D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-08-27 10:39:34 - INFO - bkq180@gmall1.com 停止线程
+2024-08-27 10:39:34 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 bkq180@gmall1.com
+2024-08-27 10:39:34 - INFO - 所有账号注册完成
+2024-08-27 10:39:34 - INFO - 所有配置文件已保存
+2024-08-27 10:39:34 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:39:34 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:45:17 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:45:17 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:45:17 - INFO - 代理模板已加载
+2024-08-27 10:45:22 - INFO - 注册线程启动...
+2024-08-27 10:45:22 - INFO - 找到 1 个未注册账号
+2024-08-27 10:45:23 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 10:45:23 - INFO - bkq180@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:45:23 - INFO - bkq180@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:45:23 - INFO - Browser created with ID: f12db9b329be4b7eb129c859d7e2b858
+2024-08-27 10:45:36 - INFO - Starting the registration process.
+2024-08-27 10:45:41 - INFO - bkq180@gmall1.com - 注册失败，提示信息: The email has already been taken.
+2024-08-27 10:45:46 - INFO - 账号 bkq180@gmall1.com 注册成功
+2024-08-27 10:45:52 - INFO - 正在停止所有线程...
+2024-08-27 10:49:38 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 10:49:38 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 10:49:38 - INFO - 代理模板已加载
+2024-08-27 10:49:52 - INFO - 注册线程启动...
+2024-08-27 10:49:52 - INFO - 找到 1 个未注册账号
+2024-08-27 10:49:53 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 10:49:53 - INFO - ynr519@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 10:49:57 - INFO - ynr519@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 10:49:57 - INFO - Browser created with ID: 078ce14c21a64874b872e5c07200a828
+2024-08-27 10:50:09 - INFO - Starting the registration process.
+2024-08-27 10:50:22 - INFO - ynr519@gmall1.com - 未发现重复注册提示，继续进行。
+2024-08-27 10:50:22 - INFO - ynr519@gmall1.com - 获取邮箱验证码
+2024-08-27 10:50:27 - INFO - ynr519@gmall1.com - 验证码输入成功
+2024-08-27 10:50:32 - INFO - 账号 ynr519@gmall1.com 注册成功
+2024-08-27 10:50:44 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-27 10:50:45 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:50:47 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 10:51:02 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-27 10:51:03 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:51:05 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 10:51:15 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-27 10:51:16 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 10:51:18 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 10:51:45 - INFO - https://www.g2a.com/payment/checkout/checkout/082024/c9cd6567-7087-4df6-8b05-b960bbbc5ec1 - 获取到的支付页面 URL: https://www.g2a.com/payment/checkout/checkout/082024/c9cd6567-7087-4df6-8b05-b960bbbc5ec1
+2024-08-27 10:51:48 - INFO - 支付表单已提交
+2024-08-27 10:51:48 - INFO - 账号 ynr519@gmall1.com 加入购物车完成
+2024-08-27 11:03:34 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:03:34 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:03:34 - INFO - 代理模板已加载
+2024-08-27 11:04:54 - INFO - 注册线程启动...
+2024-08-27 11:04:54 - INFO - 找到 1 个未注册账号
+2024-08-27 11:04:55 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 11:04:55 - INFO - jmq124@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 11:04:55 - INFO - jmq124@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 11:04:55 - INFO - Browser created with ID: 5631b323ff064e80883280c05fd33ac1
+2024-08-27 11:05:07 - INFO - Starting the registration process.
+2024-08-27 11:05:12 - INFO - jmq124@gmall1.com - 注册失败，提示信息: The email has already been taken.
+2024-08-27 11:05:17 - INFO - 账号 jmq124@gmall1.com 注册成功
+2024-08-27 11:05:21 - INFO - 正在停止所有线程...
+2024-08-27 11:05:28 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-27 11:05:29 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:05:31 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 11:05:40 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-27 11:05:41 - INFO - 处理账号注册和添加商品到购物车时出错: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.224)
+Stacktrace:
+	GetHandleVerifier [0x00CEB6E3+43907]
+	(No symbol) [0x00C75D11]
+	(No symbol) [0x00B6876D]
+	(No symbol) [0x00B4FD72]
+	(No symbol) [0x00BBBC4B]
+	(No symbol) [0x00BCA483]
+	(No symbol) [0x00BB7CD6]
+	(No symbol) [0x00B934FE]
+	(No symbol) [0x00B946AD]
+	GetHandleVerifier [0x00FA1EC9+2888553]
+	GetHandleVerifier [0x00FEAB5B+3186683]
+	GetHandleVerifier [0x00FE4811+3161265]
+	GetHandleVerifier [0x00D75CB0+610640]
+	(No symbol) [0x00C7FD1C]
+	(No symbol) [0x00C7BC08]
+	(No symbol) [0x00C7BD2F]
+	(No symbol) [0x00C6E387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-27 11:10:07 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:10:07 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:10:07 - INFO - 代理模板已加载
+2024-08-27 11:10:23 - INFO - 注册线程启动...
+2024-08-27 11:10:23 - INFO - 找到 1 个未注册账号
+2024-08-27 11:10:24 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:10:24 - INFO - 重试第 1 次...
+2024-08-27 11:10:26 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:10:26 - INFO - 重试第 2 次...
+2024-08-27 11:10:27 - INFO - 正在停止所有线程...
+2024-08-27 11:10:28 - INFO - 超过最大重试次数，仍然无法获取银行卡信息
+2024-08-27 11:10:29 - INFO - 线程1 - 获取银行卡信息失败
+2024-08-27 11:10:29 - INFO - 所有账号注册完成
+2024-08-27 11:10:29 - INFO - 所有配置文件已保存
+2024-08-27 11:10:29 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:10:29 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:10:56 - INFO - 注册线程启动...
+2024-08-27 11:10:56 - INFO - 找到 1 个未注册账号
+2024-08-27 11:10:57 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 11:10:57 - INFO - pri359@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 11:10:57 - INFO - pri359@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 11:10:57 - INFO - Browser created with ID: fd658761245b42c6b0f7a25baaef96fe
+2024-08-27 11:11:08 - INFO - Starting the registration process.
+2024-08-27 11:11:22 - INFO - pri359@gmall1.com - 未发现重复注册提示，继续进行。
+2024-08-27 11:11:22 - INFO - pri359@gmall1.com - 获取邮箱验证码
+2024-08-27 11:11:26 - INFO - pri359@gmall1.com - 验证码输入成功
+2024-08-27 11:11:31 - INFO - 账号 pri359@gmall1.com 注册成功
+2024-08-27 11:11:42 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-27 11:11:43 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:11:46 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 11:11:59 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-27 11:12:00 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:12:02 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 11:12:08 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-27 11:12:09 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:12:41 - INFO - 处理账号注册和添加商品到购物车时出错: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00CEB6E3+43907]
+	(No symbol) [0x00C75D11]
+	(No symbol) [0x00B6876D]
+	(No symbol) [0x00B9BAE0]
+	(No symbol) [0x00B9BFAB]
+	(No symbol) [0x00BCC2E2]
+	(No symbol) [0x00BB7F24]
+	(No symbol) [0x00BCA94A]
+	(No symbol) [0x00BB7CD6]
+	(No symbol) [0x00B934FE]
+	(No symbol) [0x00B946AD]
+	GetHandleVerifier [0x00FA1EC9+2888553]
+	GetHandleVerifier [0x00FEAB5B+3186683]
+	GetHandleVerifier [0x00FE4811+3161265]
+	GetHandleVerifier [0x00D75CB0+610640]
+	(No symbol) [0x00C7FD1C]
+	(No symbol) [0x00C7BC08]
+	(No symbol) [0x00C7BD2F]
+	(No symbol) [0x00C6E387]
+	BaseThreadInitThunk [0x76907BA9+25]
+	RtlInitializeExceptionChain [0x7771C10B+107]
+	RtlClearBits [0x7771C08F+191]
+
+2024-08-27 11:12:47 - INFO - 所有账号注册完成
+2024-08-27 11:12:47 - INFO - 所有配置文件已保存
+2024-08-27 11:12:47 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:12:47 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:16:14 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:16:14 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:16:14 - INFO - 代理模板已加载
+2024-08-27 11:16:31 - INFO - 注册线程启动...
+2024-08-27 11:16:31 - INFO - 找到 1 个未注册账号
+2024-08-27 11:16:32 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:16:32 - INFO - 重试第 1 次...
+2024-08-27 11:16:35 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:16:35 - INFO - 重试第 2 次...
+2024-08-27 11:16:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:16:37 - INFO - 重试第 3 次...
+2024-08-27 11:16:40 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:16:40 - INFO - 重试第 4 次...
+2024-08-27 11:16:42 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:16:42 - INFO - 重试第 5 次...
+2024-08-27 11:16:45 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 11:16:45 - INFO - gjz007@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 11:16:45 - INFO - gjz007@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 11:16:45 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 11:16:45 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 gjz007@gmall1.com
+2024-08-27 11:16:45 - INFO - 所有账号注册完成
+2024-08-27 11:16:53 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:16:53 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:16:53 - INFO - 代理模板已加载
+2024-08-27 11:17:26 - INFO - 所有配置文件已保存
+2024-08-27 11:17:30 - INFO - 注册线程启动...
+2024-08-27 11:17:30 - INFO - 找到 1 个未注册账号
+2024-08-27 11:17:30 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 11:17:30 - INFO - gjz007@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 11:17:30 - INFO - gjz007@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 11:17:30 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 11:17:30 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 gjz007@gmall1.com
+2024-08-27 11:17:30 - INFO - 所有账号注册完成
+2024-08-27 11:17:56 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:17:56 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:17:56 - INFO - 代理模板已加载
+2024-08-27 11:18:03 - INFO - 注册线程启动...
+2024-08-27 11:18:03 - INFO - 找到 1 个未注册账号
+2024-08-27 11:18:03 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:18:03 - INFO - 重试第 1 次...
+2024-08-27 11:18:06 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:18:06 - INFO - 重试第 2 次...
+2024-08-27 11:18:09 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:18:09 - INFO - 重试第 3 次...
+2024-08-27 11:18:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:18:11 - INFO - 重试第 4 次...
+2024-08-27 11:18:14 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 11:18:14 - INFO - 重试第 5 次...
+2024-08-27 11:18:24 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:18:24 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 11:18:24 - INFO - 代理模板已加载
+2024-08-27 11:18:35 - INFO - 注册线程启动...
+2024-08-27 11:18:35 - INFO - 找到 1 个未注册账号
+2024-08-27 11:18:36 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 11:18:36 - INFO - gjz007@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 11:18:36 - INFO - gjz007@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 11:18:36 - INFO - Browser created with ID: 0fb329b14f61459d9e17f512e038c856
+2024-08-27 11:18:49 - INFO - Starting the registration process.
+2024-08-27 11:19:02 - INFO - gjz007@gmall1.com - 未发现重复注册提示，继续进行。
+2024-08-27 11:19:02 - INFO - gjz007@gmall1.com - 获取邮箱验证码
+2024-08-27 11:19:06 - INFO - gjz007@gmall1.com - 验证码输入成功
+2024-08-27 11:19:11 - INFO - 账号 gjz007@gmall1.com 注册成功
+2024-08-27 11:19:22 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-20-usd-amazon-united-states-i10000001698003
+2024-08-27 11:19:23 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:19:25 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 11:19:32 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-30-usd-amazon-united-states-i10000001698052
+2024-08-27 11:19:33 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:19:35 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 11:19:40 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-27 11:19:41 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 11:19:43 - INFO - 已将商品 'abc' 添加到购物车，总金额: 151.44
+2024-08-27 11:20:11 - INFO - https://www.g2a.com/payment/checkout/checkout/082024/6585dce2-6b9f-4e44-be99-fc52ffd722c0 - 获取到的支付页面 URL: https://www.g2a.com/payment/checkout/checkout/082024/6585dce2-6b9f-4e44-be99-fc52ffd722c0
+2024-08-27 11:20:15 - INFO - 第一次支付表单已提交
+2024-08-27 11:20:18 - INFO - 第二次支付表单已提交
+2024-08-27 11:20:18 - INFO - 账号 gjz007@gmall1.com 加入购物车完成
+2024-08-27 11:20:24 - INFO - 所有账号注册完成
+2024-08-27 11:20:24 - INFO - 所有配置文件已保存
+2024-08-27 11:20:24 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 11:20:24 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:14:49 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:14:49 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:14:49 - INFO - 代理模板已加载
+2024-08-27 12:19:07 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:19:07 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:19:07 - INFO - 代理模板已加载
+2024-08-27 12:19:10 - INFO - 注册线程启动...
+2024-08-27 12:19:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:11 - INFO - 重试第 1 次...
+2024-08-27 12:19:13 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:13 - INFO - 重试第 2 次...
+2024-08-27 12:19:16 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:16 - INFO - 重试第 3 次...
+2024-08-27 12:19:18 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:18 - INFO - 重试第 4 次...
+2024-08-27 12:19:21 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:21 - INFO - 重试第 5 次...
+2024-08-27 12:19:23 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:23 - INFO - 重试第 6 次...
+2024-08-27 12:19:26 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:26 - INFO - 重试第 7 次...
+2024-08-27 12:19:29 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:29 - INFO - 重试第 8 次...
+2024-08-27 12:19:31 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:31 - INFO - 重试第 9 次...
+2024-08-27 12:19:34 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:34 - INFO - 重试第 10 次...
+2024-08-27 12:19:36 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:19:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:37 - INFO - 重试第 1 次...
+2024-08-27 12:19:39 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:39 - INFO - 重试第 2 次...
+2024-08-27 12:19:43 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:43 - INFO - 重试第 3 次...
+2024-08-27 12:19:46 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:46 - INFO - 重试第 4 次...
+2024-08-27 12:19:48 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:48 - INFO - 重试第 5 次...
+2024-08-27 12:19:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:51 - INFO - 重试第 6 次...
+2024-08-27 12:19:53 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:53 - INFO - 重试第 7 次...
+2024-08-27 12:19:56 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:56 - INFO - 重试第 8 次...
+2024-08-27 12:19:58 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:19:58 - INFO - 重试第 9 次...
+2024-08-27 12:19:59 - INFO - 正在停止所有线程...
+2024-08-27 12:20:00 - INFO - 超过最大重试次数，仍然无法获取银行卡信息
+2024-08-27 12:20:01 - INFO - 获取银行卡信息失败，剩余线程数不足
+2024-08-27 12:20:01 - INFO - 可用的银行卡信息不足，停止注册
+2024-08-27 12:21:49 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:21:49 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:21:49 - INFO - 代理模板已加载
+2024-08-27 12:22:07 - INFO - 注册线程启动...
+2024-08-27 12:22:07 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:23:27 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:23:27 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:23:27 - INFO - 代理模板已加载
+2024-08-27 12:23:39 - INFO - 注册线程启动...
+2024-08-27 12:23:40 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:23:41 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:23:41 - INFO - 重试第 1 次...
+2024-08-27 12:23:44 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:23:44 - INFO - 重试第 2 次...
+2024-08-27 12:23:46 - INFO - 正在停止所有线程...
+2024-08-27 12:23:46 - INFO - 超过最大重试次数，仍然无法获取银行卡信息
+2024-08-27 12:23:47 - INFO - 获取银行卡信息失败，剩余线程数不足
+2024-08-27 12:23:47 - INFO - 可用的银行卡信息不足，停止注册
+2024-08-27 12:24:00 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:24:00 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:24:00 - INFO - 代理模板已加载
+2024-08-27 12:24:13 - INFO - 注册线程启动...
+2024-08-27 12:24:13 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:24:13 - INFO - 获取到 1 个可用的银行卡信息
+2024-08-27 12:24:13 - INFO - 找到 0 个未注册账号
+2024-08-27 12:24:13 - INFO - 所有账号注册完成
+2024-08-27 12:24:46 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:24:46 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:24:46 - INFO - 代理模板已加载
+2024-08-27 12:24:58 - INFO - 注册线程启动...
+2024-08-27 12:24:59 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:24:59 - INFO - 获取到 1 个可用的银行卡信息
+2024-08-27 12:24:59 - INFO - 找到 0 个未注册账号
+2024-08-27 12:24:59 - INFO - 所有账号注册完成
+2024-08-27 12:25:08 - INFO - 注册线程启动...
+2024-08-27 12:25:08 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:25:08 - INFO - 重试第 1 次...
+2024-08-27 12:25:11 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:25:11 - INFO - 重试第 2 次...
+2024-08-27 12:25:14 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:25:14 - INFO - 重试第 3 次...
+2024-08-27 12:25:15 - INFO - 正在停止所有线程...
+2024-08-27 12:25:16 - INFO - 超过最大重试次数，仍然无法获取银行卡信息
+2024-08-27 12:25:17 - INFO - 获取银行卡信息失败，剩余线程数不足
+2024-08-27 12:25:17 - INFO - 可用的银行卡信息不足，停止注册
+2024-08-27 12:25:42 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:25:42 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:25:42 - INFO - 代理模板已加载
+2024-08-27 12:25:54 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:25:54 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:25:54 - INFO - 代理模板已加载
+2024-08-27 12:26:42 - INFO - 所有配置文件已保存
+2024-08-27 12:26:45 - INFO - 注册线程启动...
+2024-08-27 12:26:45 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:26:46 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:26:46 - INFO - 重试第 1 次...
+2024-08-27 12:26:48 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:26:48 - INFO - 重试第 2 次...
+2024-08-27 12:26:51 - INFO - 正在停止所有线程...
+2024-08-27 12:26:51 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:26:51 - INFO - 重试第 3 次...
+2024-08-27 12:26:53 - INFO - 超过最大重试次数，仍然无法获取银行卡信息
+2024-08-27 12:26:54 - INFO - 获取银行卡信息失败，剩余线程数不足
+2024-08-27 12:26:54 - INFO - 可用的银行卡信息不足，停止注册
+2024-08-27 12:27:16 - INFO - 注册线程启动...
+2024-08-27 12:27:17 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:27:17 - INFO - 获取到 1 个可用的银行卡信息
+2024-08-27 12:27:17 - INFO - 找到 1 个未注册账号
+2024-08-27 12:28:24 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:28:24 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:28:24 - INFO - 代理模板已加载
+2024-08-27 12:28:44 - INFO - 注册线程启动...
+2024-08-27 12:28:45 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:28:45 - INFO - 获取到 1 个可用的银行卡信息
+2024-08-27 12:28:45 - INFO - 找到 1 个未注册账号
+2024-08-27 12:28:45 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 12:28:45 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 12:28:45 - INFO - Browser created with ID: 5f2dd393a4c64ce38f89dc9c78c096d6
+2024-08-27 12:29:07 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:29:07 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:29:07 - INFO - 代理模板已加载
+2024-08-27 12:29:53 - INFO - 注册线程启动...
+2024-08-27 12:29:54 - INFO - 获取银行卡成功: {'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 12:29:54 - INFO - 获取到 1 个可用的银行卡信息
+2024-08-27 12:29:54 - INFO - 找到 1 个未注册账号
+2024-08-27 12:29:54 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 12:29:54 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 12:29:55 - INFO - Browser created with ID: afb215d8395143feac21c3dd6e686d33
+2024-08-27 12:31:14 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:31:14 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:31:14 - INFO - 代理模板已加载
+2024-08-27 12:31:18 - INFO - 注册线程启动...
+2024-08-27 12:31:18 - INFO - 获取银行卡成功: {'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 12:31:19 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 12:31:19 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 12:31:21 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 12:31:22 - INFO - 获取银行卡成功: {'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 12:31:26 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 12:31:26 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 12:31:26 - INFO - 代理模板已加载
+2024-08-27 12:31:29 - INFO - 注册线程启动...
+2024-08-27 12:31:30 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:31:30 - INFO - 重试第 1 次...
+2024-08-27 12:31:32 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 12:31:32 - INFO - 重试第 2 次...
+2024-08-27 12:31:34 - INFO - 正在停止所有线程...
+2024-08-27 12:31:34 - INFO - 超过最大重试次数，仍然无法获取银行卡信息
+2024-08-27 12:31:35 - INFO - 获取银行卡信息失败，剩余线程数不足
+2024-08-27 12:31:35 - INFO - 可用的银行卡信息不足，停止注册
+2024-08-27 12:31:43 - INFO - 注册线程启动...
+2024-08-27 12:31:43 - INFO - 获取银行卡成功: {'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 12:31:43 - INFO - 获取到 1 个可用的银行卡信息
+2024-08-27 12:31:43 - INFO - 找到 1 个未注册账号
+2024-08-27 12:31:43 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 12:31:43 - INFO - lnf231@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 12:31:44 - INFO - Browser created with ID: 4a9793c0761a4a14987aff112436bace
+2024-08-27 12:31:55 - INFO - Starting the registration process.
+2024-08-27 12:32:09 - INFO - lnf231@gmall1.com - 未发现重复注册提示，继续进行。
+2024-08-27 12:32:09 - INFO - lnf231@gmall1.com - 获取邮箱验证码
+2024-08-27 12:32:13 - INFO - lnf231@gmall1.com - 验证码输入成功
+2024-08-27 12:32:18 - INFO - 账号 lnf231@gmall1.com 注册成功
+2024-08-27 12:32:31 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-27 12:32:32 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 12:32:34 - INFO - 已将商品 'abc' 添加到购物车，总金额: 99.0
+2024-08-27 12:32:50 - INFO - 正在停止所有线程...
+2024-08-27 13:00:09 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:00:09 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:00:09 - INFO - 代理模板已加载
+2024-08-27 13:01:35 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:01:35 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:01:35 - INFO - 代理模板已加载
+2024-08-27 13:01:36 - INFO - 注册线程启动...
+2024-08-27 13:01:37 - INFO - 找到 1 个未注册账号
+2024-08-27 13:01:38 - INFO - 获取银行卡成功: {'id': '3', 'order_id': '2024082302331459802', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '795', 'state': '0', 'price': '70.00', 'username': 'AAAA', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'Alberta\n', 'city': 'Calgary', 'postalcode': '321312', 'street': '123123', 'residence': '1111', 'ip': ''}
+2024-08-27 13:01:38 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:01:46 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:01:46 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:01:46 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:01:46 - INFO - 所有账号注册完成
+2024-08-27 13:01:58 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:01:58 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:01:58 - INFO - 代理模板已加载
+2024-08-27 13:02:00 - INFO - 注册线程启动...
+2024-08-27 13:02:00 - INFO - 找到 1 个未注册账号
+2024-08-27 13:02:00 - INFO - 获取银行卡成功: {'id': '4', 'order_id': '2024082302523634604', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'West Virginia', 'city': 'Ghent', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 13:02:00 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:02:07 - INFO - lnf231@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:02:13 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:02:21 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:02:22 - INFO - 所有账号注册完成
+2024-08-27 13:02:29 - INFO - 注册线程启动...
+2024-08-27 13:02:29 - INFO - 找到 1 个未注册账号
+2024-08-27 13:02:30 - INFO - 获取银行卡成功: {'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 13:03:12 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:03:12 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:03:12 - INFO - 代理模板已加载
+2024-08-27 13:03:14 - INFO - 注册线程启动...
+2024-08-27 13:03:14 - INFO - 找到 1 个未注册账号
+2024-08-27 13:03:14 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 13:03:14 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:03:18 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:03:18 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:03:18 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:03:18 - INFO - 所有账号注册完成
+2024-08-27 13:03:22 - INFO - 注册线程启动...
+2024-08-27 13:03:22 - INFO - 找到 1 个未注册账号
+2024-08-27 13:03:22 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:03:22 - INFO - 重试第 1 次...
+2024-08-27 13:03:25 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:03:25 - INFO - 重试第 2 次...
+2024-08-27 13:03:28 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:03:28 - INFO - 重试第 3 次...
+2024-08-27 13:03:31 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:03:31 - INFO - 重试第 4 次...
+2024-08-27 13:03:34 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:03:34 - INFO - 重试第 5 次...
+2024-08-27 13:03:37 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:03:37 - INFO - 重试第 6 次...
+2024-08-27 13:03:40 - INFO - 获取银行卡成功: {'id': '2', 'order_id': '2024082302263161649', 'card_number': '4733422074065220', 'expiration_date': '2026-01', 'security_code': '970', 'state': '0', 'price': '133.00', 'username': '111', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California\n', 'city': 'Palo Alto', 'postalcode': '3232', 'street': '232', 'residence': '2323', 'ip': ''}
+2024-08-27 13:03:40 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:03:40 - INFO - lnf231@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:03:40 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:03:40 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:03:40 - INFO - 所有账号注册完成
+2024-08-27 13:18:43 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:18:43 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:18:43 - INFO - 代理模板已加载
+2024-08-27 13:18:45 - INFO - 注册线程启动...
+2024-08-27 13:18:45 - INFO - 找到 1 个未注册账号
+2024-08-27 13:18:46 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 13:18:46 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:18:46 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:18:46 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:18:46 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:19:06 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:19:06 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:19:06 - INFO - 代理模板已加载
+2024-08-27 13:19:08 - INFO - 注册线程启动...
+2024-08-27 13:19:08 - INFO - 找到 1 个未注册账号
+2024-08-27 13:19:09 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:19:09 - INFO - 重试第 1 次...
+2024-08-27 13:19:12 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 13:19:12 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:19:12 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:19:12 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:19:12 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:19:12 - INFO - 所有账号注册完成
+2024-08-27 13:19:28 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:19:28 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:19:28 - INFO - 代理模板已加载
+2024-08-27 13:19:29 - INFO - 注册线程启动...
+2024-08-27 13:19:29 - INFO - 找到 1 个未注册账号
+2024-08-27 13:19:30 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 13:19:30 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:19:30 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:19:30 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:19:30 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:19:30 - INFO - 所有账号注册完成
+2024-08-27 13:21:45 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:21:45 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:21:45 - INFO - 代理模板已加载
+2024-08-27 13:24:19 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:24:19 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:24:19 - INFO - 代理模板已加载
+2024-08-27 13:24:21 - INFO - 注册线程启动...
+2024-08-27 13:24:21 - INFO - 找到 1 个未注册账号
+2024-08-27 13:24:22 - INFO - 获取银行卡成功: {'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 13:24:22 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:24:22 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:24:22 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:24:22 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:24:22 - INFO - 所有账号注册完成
+2024-08-27 13:30:22 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:30:22 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:30:22 - INFO - 代理模板已加载
+2024-08-27 13:30:26 - INFO - 注册线程启动...
+2024-08-27 13:30:26 - INFO - 找到 1 个未注册账号
+2024-08-27 13:30:27 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 13:30:27 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:30:27 - INFO - lnf231@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:30:27 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:30:27 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:30:27 - INFO - 所有账号注册完成
+2024-08-27 13:30:31 - INFO - 注册线程启动...
+2024-08-27 13:30:31 - INFO - 找到 1 个未注册账号
+2024-08-27 13:30:32 - INFO - 获取银行卡成功: {'id': '7', 'order_id': '4492732189', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '223', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'United States ', 'ipcity': 'Marin / Novato ', 'ipprovince': 'California / CA ', 'country': 'United States ', 'province': 'California', 'city': 'NICASIO', 'postalcode': '94946-0603', 'street': 'PO BOX 603, 12000 POINT REYES PETALUMA RD', 'residence': '12000 POINT REYES PETALUMA RD ', 'ip': '64.7.85.74'}
+2024-08-27 13:30:32 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:30:32 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:30:32 - INFO - API 返回数据不包含 'id': {'success': False, 'msg': 'token 失效，请检查登录状态'}
+2024-08-27 13:30:32 - INFO - 线程1 - 无法创建浏览器实例，跳过账号 lnf231@gmall1.com
+2024-08-27 13:30:32 - INFO - 所有账号注册完成
+2024-08-27 13:40:44 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 13:40:44 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 13:40:44 - INFO - 代理模板已加载
+2024-08-27 13:40:48 - INFO - 注册线程启动...
+2024-08-27 13:40:48 - INFO - 找到 1 个未注册账号
+2024-08-27 13:40:49 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:40:49 - INFO - 重试第 1 次...
+2024-08-27 13:40:52 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:40:52 - INFO - 重试第 2 次...
+2024-08-27 13:40:55 - INFO - 获取银行卡信息失败: 响应中 success 字段为 False
+2024-08-27 13:40:55 - INFO - 重试第 3 次...
+2024-08-27 13:40:57 - INFO - 获取银行卡成功: {'id': '5', 'order_id': '2024082303061921918', 'card_number': '4266841666901762', 'expiration_date': '2025-12', 'security_code': '529', 'state': '0', 'price': '100.00', 'username': '', 'ipcountry': '', 'ipcity': '', 'ipprovince': '', 'country': 'United States ', 'province': 'California', 'city': 'Garden Grove', 'postalcode': '', 'street': '', 'residence': '', 'ip': ''}
+2024-08-27 13:40:57 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 13:40:57 - INFO - lnf231@gmall1.com 代理配置: {'name': 'IOS browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'IOS', 'os': 'iPhone', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 2}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 13:40:57 - INFO - Browser created with ID: 9d10defd62a541eb95c8a77da6d7e32c
+2024-08-27 13:41:10 - INFO - Starting the registration process.
+2024-08-27 13:41:15 - INFO - lnf231@gmall1.com - 注册失败，提示信息: The email has already been taken.
+2024-08-27 13:41:20 - INFO - 账号 lnf231@gmall1.com 注册成功
+2024-08-27 13:41:33 - INFO - 打开商品链接: https://www.g2a.com/amazon-gift-card-100-usd-amazon-united-states-i10000001698120
+2024-08-27 13:41:34 - INFO - 页面已滚动到底部(滚动到底部按钮才会显示)
+2024-08-27 13:41:37 - INFO - 商品 'abc'无法找到
+2024-08-27 13:41:37 - INFO - 已将商品 'abc' 添加到购物车，总金额: 99.0
+2024-08-27 13:42:03 - INFO - 所有账号注册完成
+2024-08-27 14:06:39 - INFO - 自动加载了 1 个记录从 accounts.json
+2024-08-27 14:06:39 - INFO - 自动加载了 4 个记录从 links.json
+2024-08-27 14:06:39 - INFO - 代理模板已加载
+2024-08-27 14:06:56 - INFO - 注册线程启动...
+2024-08-27 14:06:56 - INFO - 找到 1 个未注册账号
+2024-08-27 14:06:57 - INFO - 获取银行卡成功: {'id': '6', 'order_id': '231231', 'card_number': '4147098055333215', 'expiration_date': '2027-03', 'security_code': '222', 'state': '0', 'price': '222.00', 'username': 'dwadw', 'ipcountry': 'ddd', 'ipcity': 'sss', 'ipprovince': 'kk', 'country': 'United States ', 'province': 'Virginia\n', 'city': 'Falls Church', 'postalcode': '989899-88', 'street': '222', 'residence': '222', 'ip': '2222'}
+2024-08-27 14:06:57 - INFO - lnf231@gmall1.com 开始创建比特浏览器实例:
+2024-08-27 14:06:57 - INFO - lnf231@gmall1.com 代理配置: {'name': 'Android browser', 'browserFingerPrint': {'coreVersion': '118', 'ostype': 'Android', 'os': 'Linux armv81', 'openWidth': 360, 'openHeight': 748, 'resolutionType': '1', 'resolution': '360x748', 'devicePixelRatio': 3}, 'proxyMethod': 2, 'proxyType': 'noproxy'}
+2024-08-27 14:06:57 - INFO - Browser created with ID: 558f0599183f49a9b0b2846b17829725
+2024-08-27 14:07:14 - INFO - Starting the registration process.
+2024-08-27 14:07:20 - INFO - lnf231@gmall1.com - 注册失败，提示信息: The email has already been taken.
+2024-08-27 14:07:25 - INFO - 账号 lnf231@gmall1.com 注册成功

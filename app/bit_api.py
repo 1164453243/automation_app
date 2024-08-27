@@ -42,7 +42,7 @@ def updateBrowser():  # 更新窗口，支持批量更新和按需更新，ids �
 
 
 def openBrowser(id):  # 直接指定ID打开窗口，也可以使用 createBrowser 方法返回的ID
-    json_data = {"id": f'{id}'}
+    json_data = {"id": f'{id}',"queue":True}
     res = requests.post(f"{url}/browser/open",
                         data=json.dumps(json_data), headers=headers).json()
     return res

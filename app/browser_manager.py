@@ -20,7 +20,7 @@ class BrowserManager(QObject):
             self.browser_list_updated.emit()
             return browser_id
         else:
-            return None
+            return
 
     def _create_new_browser(self, proxy_info=None):
         # 设置代理相关的配置信息，如果有提供代理信息的话
@@ -56,7 +56,7 @@ class BrowserManager(QObject):
             self.browser_list_updated.emit()
             return browser_id
         else:
-            return None
+            return
 
     def release_browser(self, thread_name):
         if thread_name in self.allocated_browsers:
@@ -64,7 +64,7 @@ class BrowserManager(QObject):
             self.available_browsers.append(browser_id)
             self.browser_list_updated.emit()
             return browser_id
-        return None
+        return
 
     def get_allocated_browsers(self):
         return self.allocated_browsers

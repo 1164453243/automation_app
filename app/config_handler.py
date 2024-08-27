@@ -6,24 +6,24 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def load_config(filename):
-    file_path = os.path.join(BASE_DIR, 'config', filename)
+    file_path = os.path.join('./config', filename)
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 
 def save_config(data, filename):
-    file_path = os.path.join(BASE_DIR, 'config', filename)
+    file_path = os.path.join('./config', filename)
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
 
-def parse_proxy_info(proxy_line):
+def parse_proxy_info(self,proxy_line):
     # 拆分代理信息
     parts = proxy_line.strip().split(":")
 
     if len(parts) != 4:
-        print("代理信息格式错误:", proxy_line)
-        return None
+        self.log("代理信息格式错误:", proxy_line)
+        return
 
     # 提取IP和端口
     ip = parts[0]  # IP 地址
@@ -43,7 +43,7 @@ def parse_proxy_info(proxy_line):
         city = username_parts[username_parts.index("city") + 1]  # 城市
     except (ValueError, IndexError) as e:
         print(f"从用户名中提取信息时出错: {e}")
-        return None
+        return
 
     return {
         "ip": ip,

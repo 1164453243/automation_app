@@ -22,6 +22,8 @@ def register_account(self,driver,email, password, verification_code):
         password_field = wait.until(EC.visibility_of_element_located((By.NAME, 'password')))
         password_field.send_keys('A234fgdfhfgh45')
 
+        # 点击注册按钮
+        # time.sleep(1)
         # 勾选 "registration" 复选框
         try:
             registration_checkbox = driver.find_element(By.NAME, 'registration')
@@ -40,6 +42,21 @@ def register_account(self,driver,email, password, verification_code):
             (By.XPATH, "//button[contains(@class, 'indexes__Button') and text()='Create account']")))
         submit_button.click()
 
+        # 检查是否存在 "The email has already been taken." 提示
+        try:
+            error_message_element = wait.until(EC.visibility_of_element_located(
+                (By.XPATH,
+                 "//div[@class='sc-ellfGf blLHlf']//span[contains(@class, 'sc-iqAclL')]")
+            ))
+            error_message = error_message_element.text
+            self.log(f"{email} - 注册失败，提示信息: {error_message}")
+            return  '' # 如果提示存在，则停止后续操作
+        except Exception:
+            self.log(f"{email} - 未发现重复注册提示，继续进行。")
+
+
+
+
         # 获取邮箱验证码
         self.log(f"{email} - 获取邮箱验证码")
         verification_code, url = getCodeAndUrl(email, password, 0)
@@ -57,6 +74,5 @@ def register_account(self,driver,email, password, verification_code):
     except Exception as e:
         logging.error(f"An error occurred during registration: {e}")
     finally:
-        time.sleep(1)
-        self.log("abc")
+        time.sleep(5)
 

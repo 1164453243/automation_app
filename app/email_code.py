@@ -12,7 +12,7 @@ def getCodeAndUrl(username, password, count, max_retries=30):
         html_content = response.text
     else:
         print("请求失败，状态码:", response.status_code)
-        return None, None
+        return
 
     # 解析 HTML 内容
     soup = BeautifulSoup(html_content, 'html.parser')
