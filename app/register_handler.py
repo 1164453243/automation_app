@@ -8,7 +8,7 @@ import logging
 from app.email_code import getCodeAndUrl
 
 
-def register_account(self,driver,email, password, verification_code):
+def register_account(self,driver,email, password, other_password):
     logging.info("Starting the registration process.")
     try:
         # 等待页面加载并查找输入框
@@ -20,7 +20,7 @@ def register_account(self,driver,email, password, verification_code):
 
         # 填写 Password
         password_field = wait.until(EC.visibility_of_element_located((By.NAME, 'password')))
-        password_field.send_keys('A234fgdfhfgh45')
+        password_field.send_keys(other_password)
 
         # 点击注册按钮
         # time.sleep(1)

@@ -1,4 +1,5 @@
 import json
+import logging
 import threading
 import time
 import random
@@ -16,7 +17,12 @@ from app.payment_handler import handle_payment
 from app.register_handler import register_account
 from app.thread_manager import ThreadManager
 
-
+logging.basicConfig(
+    filename='logs/pay.txt',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
 class ThreadManager:
     def __init__(self, max_threads):
         self.max_threads = max_threads
@@ -54,6 +60,7 @@ class RegistrationWorker(QThread):
         self.account_table = account_table
         self.thread_count = thread_count
         self.log = log_callback
+        self.log_lock = threading.Lock()
         self.thread_manager = ThreadManager(thread_count)
         self.card_info_used = set()
         self._is_running = True
@@ -161,10 +168,10 @@ class RegistrationWorker(QThread):
         try:
             if not self._is_running:
                 return  None# 再次检查
-
+            other_password = 'A234fgdfhfgh45'
             # 执行注册操作
             # self.update_status.emit(thread_index, f"{email} - 注册中")
-            self.register_account(browser, email, password)
+            self.register_account(browser, email, password,other_password)
             # self.update_status.emit(thread_index, f"{email} - 注册完成")
             # self.account_table.setItem(row, 2, QTableWidgetItem("已注册"))
             self.log(f"账号 {email} 注册成功")
@@ -189,9 +196,11 @@ class RegistrationWorker(QThread):
 
             # 获取支付结果
             if check_pay_status(email, password, 0):
-                self.log(f"账号 {email} 支付成功")
+                logging.info(f"账号: {email} 邮箱密码：{password} 平台密码：{other_password}  支付成功")
+                self.pay_log(f"账号 {email} 支付成功")
             else :
-                self.log(f"账号 {email} 支付失败")
+                logging.info(f"账号: {email} 邮箱密码：{password} 平台密码：{other_password}  支付成功")
+                self.pay_log(f"账号 {email} 支付失败")
         finally:
             browser.quit()
 
@@ -259,14 +268,15 @@ class RegistrationWorker(QThread):
             self._is_running = False
             return None
 
-    def register_account(self, browser, email, password):
+    def register_account(self, browser, email, password,other_password):
         browser.get('https://login.g2a.com/register-page?redirect_uri=https%3A%2F%2Fwww.g2a.com%2F&source=topbar')
-        register_account(self, browser, email, password, '123456')
+        register_account(self, browser, email, password, other_password)
 
     def add_to_cart(self, browser, card_info):
         handle_payment(self, browser, card_info)
 
-    def process_payment(self, browser):
-        # pay_button = browser.find_element_by_name('pay')
-        # pay_button.click()
-        time.sleep(2)  # 等待支付完成
+    def pay_log(self, message):
+        with self.log_lock:  # 使用线程锁保护日志记录
+            self.log(message)
+            logging.info(message)
+        # print(message)
