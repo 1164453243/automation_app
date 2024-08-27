@@ -13,7 +13,7 @@ headers = {'Content-Type': 'application/json'}
 
 def createBrowser():  # 创建或者更新窗口，指纹参数 browserFingerPrint 如没有特定需求，只需要指定下内核即可，如果需要更详细的参数，请参考文档
     json_data = {
-        'name': 'google',  # 窗口名称
+        'name': 'Android',  # 窗口名称
         'remark': '',  # 备注
         'proxyMethod': 2,  # 代理方式 2自定义 3 提取IP
         # 代理类型  ['noproxy', 'http', 'https', 'socks5', 'ssh']
@@ -21,6 +21,7 @@ def createBrowser():  # 创建或者更新窗口，指纹参数 browserFingerPri
         'host': '',  # 代理主机
         'port': '',  # 代理端口
         'proxyUserName': '',  # 代理账号
+        'proxyPassword': '',  # 代理账号
         "browserFingerPrint": {  # 指纹对象
             'coreVersion': '124'  # 内核版本，注意，win7/win8/winserver 2012 已经不支持112及以上内核了，无法打开
         }
@@ -59,15 +60,40 @@ def deleteBrowser(id):  # 删除窗口
     print(requests.post(f"{url}/browser/delete",
           data=json.dumps(json_data), headers=headers).json())
 
+def check_proxy(proxy): # 检测代理是否可用
+    json_data = {
+        'host': f'{proxy['ip']}',  # 代理主机
+        'port':  f'{proxy['port']}',  # 代理端口
+        'proxyType': 'https',
+        'proxyUserName': f'{proxy['username']}',# 代理账号
+        'proxyPassword': f'{proxy['password']}',  # 代理账号密码
+        'ipCheckService': 'ip-api',  # IP检测渠道，默认ip-api，选项 ip-api | ip123in | luminati，luminati为Luminati专用
+        'checkExists': 0
+    }
+    res = requests.post(f"{url}/checkagent",
+                        data=json.dumps(json_data), headers=headers).json()
+    print(res)
+    if not res['data']['success']:
+        print(f'代理不可用：{':'.join(proxy.values())}')
+    return res['data']['success']
 
 if __name__ == '__main__':
-    browser_id = createBrowser()
-    openBrowser(browser_id)
+    json_data = {
+        'ip': 'proxy.ipipgo.com',  # 代理主机
+        'port': '31212',  # 代理端口
+        'username': 'customer-fdd151c0-country-US-region-Louisiana-city-Alexandria-session-68da66416fdb428-time-5',  # 代理账号
+        'password': '618fed4c',  # 代理账号
 
-    time.sleep(10)  # 等待10秒自动关闭窗口
+    }
+    check_proxy(json_data)
 
-    closeBrowser(browser_id)
-
-    time.sleep(10)  # 等待10秒自动删掉窗口
-
-    deleteBrowser(browser_id)
+    # browser_id = createBrowser()
+    # openBrowser(browser_id)
+    #
+    # time.sleep(10)  # 等待10秒自动关闭窗口
+    #
+    # closeBrowser(browser_id)
+    #
+    # time.sleep(10)  # 等待10秒自动删掉窗口
+    #
+    # deleteBrowser(browser_id)

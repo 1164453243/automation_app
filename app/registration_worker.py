@@ -9,8 +9,9 @@ from PyQt5.QtWidgets import QTableWidgetItem
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-from app.bit_api import openBrowser, url, headers
+from app.bit_api import openBrowser, url, headers, check_proxy
 from app.config_handler import load_config, parse_proxy_info
+from app.email_code import check_pay_status
 from app.payment_handler import handle_payment
 from app.register_handler import register_account
 from app.thread_manager import ThreadManager
@@ -80,6 +81,9 @@ class RegistrationWorker(QThread):
 
             if not match_proxy:
                 self.log(f"线程{i + 1} - 获取代理信息失败")
+                continue
+            if not check_proxy(match_proxy):
+                self.log(f"线程{i + 1} - 代理无效")
                 continue
 
             thread_name = f"线程{i + 1}"
@@ -183,6 +187,11 @@ class RegistrationWorker(QThread):
             # self.update_status.emit(thread_index, f"{email} - 支付完成")
             self.log(f"账号 {email} 支付完成")
 
+            # 获取支付结果
+            if check_pay_status(email, password, 0):
+                self.log(f"账号 {email} 支付成功")
+            else :
+                self.log(f"账号 {email} 支付失败")
         finally:
             browser.quit()
 
